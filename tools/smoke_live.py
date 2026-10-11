@@ -7,6 +7,14 @@ import pandas as pd
 
 from lab import calendar, data, signals, store
 
+import os
+if os.environ.get("MASSIVE_API_KEY", "").strip():
+    m = data.massive_daily("AMEX:SPY", days=30)
+    print("Massive backup:", f"OK, {len(m)} SPY daily bars, last {m.index[-1].date()}" if m is not None
+          else "key set but the request failed")
+else:
+    print("Massive backup: no key")
+
 cd, cohort = store.latest_cohort("2100-01-01")
 syms = cohort[cohort["group"] == "cohort"]["symbol"].tolist()[:25]
 daily = data.get_bars(syms, "1d", "2y")

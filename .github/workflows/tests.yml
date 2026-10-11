@@ -28,6 +28,8 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python tools/smoke_live.py 2>&1 | tee live_check.log
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
       - name: Show result in the run summary
         if: always()
         run: |
