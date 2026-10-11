@@ -24,8 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -36,8 +36,11 @@ jobs:
           MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
           ONE_DATE: ${{ github.event.inputs.date }}
         run: |
-          if [ -n "$ONE_DATE" ]; then python run_daily.py --date "$ONE_DATE"; else python run_daily.py; fi
-      - name: Save to the repo
+          set -o pipefail
+          if [ -n "$ONE_DATE" ]; then args=(--date "$ONE_DATE"); else args=(); fi
+          python run_daily.py "${args[@]}" 2>&1 | tee data/last_daily.log
+      - name: Save to the repo (also when a step failed, so the log is kept)
+        if: always()
         run: |
           git config user.name "strong-stock-lab-bot"
           git config user.email "strong-stock-lab-bot@users.noreply.github.com"
