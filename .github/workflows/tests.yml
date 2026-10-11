@@ -30,4 +30,6 @@ jobs:
       - run: python tools/smoke_live.py 2>&1 | tee live_check.log
       - name: Show result in the run summary
         if: always()
-        run: { echo '```'; cat live_check.log; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+        run: |
+          { echo '```'; cat live_check.log; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          echo "::notice title=Live check::$(sed ':a;N;$!ba;s/\n/%0A/g' live_check.log)"
