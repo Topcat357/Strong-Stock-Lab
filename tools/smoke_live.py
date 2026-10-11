@@ -12,6 +12,13 @@ if os.environ.get("MASSIVE_API_KEY", "").strip():
     m = data.massive_daily("AMEX:SPY", days=30)
     print("Massive backup:", f"OK, {len(m)} SPY daily bars, last {m.index[-1].date()}" if m is not None
           else "key set but the request failed")
+    from lab import news
+    for sym in ("NYSE:HPE", "NASDAQ:GTLB"):
+        r = news.massive_news(sym, "2026-10-09T15:30:00-04:00")
+        print(f"Massive news {sym} (48h before Fri 3:30 pm):",
+              "unavailable" if r is None else
+              f"{r['headlines_48h']} headlines, tone {r['news_tone']} "
+              f"(+{r['positive']} / -{r['negative']} / ={r['neutral']})")
 else:
     print("Massive backup: no key")
 

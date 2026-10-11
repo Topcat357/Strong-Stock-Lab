@@ -157,3 +157,17 @@ def test_mfe_mae_tracked():
     t = _t()
     trades.update_day(t, "2026-10-12", None, _row(50, 52, 49, 51), 30)
     assert t["mfe_r"] == pytest.approx(4 / 3) and t["mae_r"] == pytest.approx(-2 / 3)
+
+
+# --------------------------------------------------------------------- news
+def test_news_tone():
+    from lab.news import tone_from
+    assert tone_from([], "X")["news_tone"] == "none"
+    arts = [{"title": "a", "insights": [{"ticker": "X", "sentiment": "positive"},
+                                        {"ticker": "Y", "sentiment": "negative"}]},
+            {"title": "b", "insights": [{"ticker": "X", "sentiment": "positive"}]},
+            {"title": "c", "insights": [{"ticker": "X", "sentiment": "negative"}]}]
+    r = tone_from(arts, "X")
+    assert r["news_tone"] == "positive" and r["headlines_48h"] == 3 and r["negative"] == 1
+    assert tone_from(arts[2:] + arts[:1], "X")["news_tone"] == "neutral"
+    assert tone_from([{"title": "z"}], "X")["news_tone"] == "neutral"

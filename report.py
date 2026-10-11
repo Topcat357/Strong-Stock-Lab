@@ -89,8 +89,19 @@ def main():
             sig[["signal_id", "action", "light", "rule_version", "cohort_rank", "setup_reasons"]],
             on="signal_id", how="left")
         news = store.load("news")
-        if not news.empty:
-            closed = closed.merge(news[["signal_id", "news_tone"]], on="signal_id", how="left")
+        if not news.empty and "source" in news:
+            # Massive's tag is primary; TradingView's (from the Sunday review) fills gaps
+            pick = news.assign(rank=news["source"].map({"massive": 0, "tradingview": 1}).fillna(2))
+            pick = pick.sort_values("rank").drop_duplicates("signal_id")
+            closed = closed.merge(pick[["signal_id", "news_tone"]], on="signal_id", how="left")
+            both = news.pivot_table(index="signal_id", columns="source", values="news_tone", aggfunc="first")
+            if {"massive", "tradingview"} <= set(both.columns):
+                b = both.dropna()
+                out["news_source_agreement"] = {"signals_with_both": int(len(b)),
+                                                "agree": int((b["massive"] == b["tradingview"]).sum())}
+                lines.append(f"News sources agree on {out['news_source_agreement']['agree']} of "
+                             f"{len(b)} signals tagged by both.")
+                lines.append("")
         else:
             closed["news_tone"] = np.nan
         lines.append(f"{len(closed)} closed and {int((trd['status'] == 'open').sum())} open shadow trades.")

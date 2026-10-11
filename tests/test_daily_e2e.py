@@ -63,6 +63,8 @@ def test_daily_pipeline(tmp_path, monkeypatch):
 
     monkeypatch.setattr(data, "get_bars", fake_bars)
     monkeypatch.setattr(data, "sp500_breadth", lambda: None)
+    from lab import news
+    monkeypatch.setattr(news, "massive_news", lambda s, t, hours=48: {"headlines_48h": 2, "news_tone": "positive", "positive": 2, "negative": 0, "neutral": 0, "top_headline": "x"})
     monkeypatch.setattr(screen, "fetch_universe", lambda: pd.DataFrame(
         {"symbol": [sym], "close": [30.0], "SMA50": [25.0], "average_volume_30d_calc": [1e6]}))
     monkeypatch.setattr(data, "tv_details", lambda s, *a, **k: pd.DataFrame(
@@ -102,3 +104,9 @@ def test_report_runs(tmp_path, monkeypatch):
     assert report.main() == 0
     md = (tmp_path / "report_latest.md").read_text()
     assert "Screen vs control" in md and "Cohort by setup type" in md and "Buy-and-hold by cohort" in md
+
+
+def test_news_tagged_at_signal_time(tmp_path, monkeypatch):
+    test_daily_pipeline(tmp_path, monkeypatch)
+    n = store.load("news")
+    assert len(n) == 1 and n.iloc[0]["source"] == "massive" and n.iloc[0]["news_tone"] == "positive"

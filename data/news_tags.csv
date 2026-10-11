@@ -1,1 +1,1 @@
-signal_id,symbol,trigger_time,headlines_48h,news_tone,top_headline
+signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,neutral,top_headline

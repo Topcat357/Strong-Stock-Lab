@@ -22,7 +22,7 @@ from datetime import time as dtime
 import numpy as np
 import pandas as pd
 
-from lab import calendar, config, data, macro, signals, store, trades
+from lab import calendar, config, data, macro, news, signals, store, trades
 from lab.indicators import rsi
 
 STATE = store.DATA / "state.json"
@@ -264,6 +264,19 @@ def main():
                      f"{len(open_trades)} open trades")
         if ds > state.get("last_processed", ""):
             state["last_processed"] = ds
+
+    # ---- news from Massive for each new signal (headlines before the trigger only)
+    tags = []
+    for sg in new_signals:
+        t = news.tag_signal(sg["signal_id"], sg["symbol"], sg["trigger_time"])
+        if t:
+            tags.append(t)
+    if new_signals:
+        data.log(f"News tags: {len(tags)} of {len(new_signals)} signals from Massive")
+    if tags:
+        old = store.load("news")
+        merged = pd.concat([old, pd.DataFrame(tags)], ignore_index=True) if len(old) else pd.DataFrame(tags)
+        store.save("news", merged.reindex(columns=news.COLUMNS))
 
     # ---- save
     store.save("macro", macro_df.drop_duplicates("date", keep="last").sort_values("date"))
