@@ -30,7 +30,7 @@ def tv_filter(left, op, right):
     return {"left": left, "operation": op, "right": right}
 
 
-def tv_scan(columns, filters=None, tickers=None, sort=None, limit=5000):
+def tv_scan(columns, filters=None, tickers=None, sort=None, limit=5000, symbolset=None):
     """One POST to TradingView's screener. Returns a DataFrame with one row per symbol."""
     payload = {
         "markets": ["america"],
@@ -39,6 +39,8 @@ def tv_scan(columns, filters=None, tickers=None, sort=None, limit=5000):
         "columns": columns,
         "range": [0, limit],
     }
+    if symbolset:
+        payload["symbols"] = {"symbolset": symbolset}
     if filters:
         payload["filter"] = filters
     if sort:
@@ -136,7 +138,34 @@ def yahoo_bars(tv_symbols, interval="1d", period="2y"):
                 else:
                     df.index = pd.to_datetime(df.index).tz_localize(None).normalize()
                 out[s] = df
+    for s in [x for x in syms if x not in out]:
+        try:
+            df = yf.download(yahoo_symbol(s), period=period, interval=interval,
+                             auto_adjust=False, progress=False, threads=False)
+            if isinstance(df.columns, pd.MultiIndex):
+                df.columns = df.columns.get_level_values(0)
+            df = _normalize(df)
+        except Exception:
+            continue
+        if len(df):
+            df.index = (df.index.tz_convert(ET) if interval != "1d"
+                        else pd.to_datetime(df.index).tz_localize(None).normalize())
+            out[s] = df
     return out
+
+
+def sp500_breadth():
+    """% of S&P 500 stocks closing above their 50-day SMA (None if unavailable)."""
+    try:
+        df = tv_scan(["close", "SMA50"], symbolset=["SYML:SP;SPX"], limit=600)
+    except Exception as e:
+        log(f"S&P 500 breadth unavailable: {e}")
+        return None
+    df = df.dropna()
+    if len(df) < 400:
+        log(f"S&P 500 breadth: only {len(df)} rows, not used")
+        return None
+    return float((df["close"] > df["SMA50"]).mean() * 100)
 
 
 # ----------------------------------------------------------------------- Massive

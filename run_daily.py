@@ -109,14 +109,26 @@ def main():
     # ---- live extras for the latest session: breadth and earnings dates
     breadth, earn = None, {}
     try:
-        from lab import screen
-        liq = screen.liquid(screen.fetch_universe())
-        breadth = float((liq["close"] > liq["SMA50"]).mean() * 100)
+        breadth = data.sp500_breadth()
+        if breadth is None:  # fall back to the liquid US universe
+            from lab import screen
+            liq = screen.liquid(screen.fetch_universe())
+            breadth = float((liq["close"] > liq["SMA50"]).mean() * 100)
         det = data.tv_details(sorted(syms - {SPY, VIX}))
         earn = dict(zip(det["symbol"], det["earnings_release_next_date"]))
+        if VIX not in daily:  # Yahoo missed VIX: today's close from TradingView
+            v = data.tv_details([VIX], columns=("close",))
+            if len(v) and pd.notna(v["close"].iloc[0]):
+                day = days[-1]
+                daily[VIX] = pd.DataFrame({"open": v["close"], "high": v["close"], "low": v["close"],
+                                           "close": v["close"], "volume": 0.0},
+                                          index=pd.DatetimeIndex([day]))
     except Exception as e:
         data.log(f"TradingView extras unavailable ({e}); continuing without breadth/earnings")
 
+    if SPY not in daily:
+        data.log("No SPY bars from any source; try again later.")
+        return 1
     spy = daily[SPY]
     vix = daily.get(VIX)
     spy_close = spy["close"]

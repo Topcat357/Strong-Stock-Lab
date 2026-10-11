@@ -1,3 +1,0 @@
-date,spy_close,spy_sma50,spy_sma200,vix,breadth_pct,next_session,event_next,light,reason,rule_version
-2026-10-08,773.93,766.837,722.46,,,2026-10-09,,green,all clear,v1
-2026-10-09,778.57,767.574,722.928,,27.36220472440945,2026-10-12,,yellow,breadth 27%,v1

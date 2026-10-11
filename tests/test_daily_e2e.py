@@ -62,6 +62,7 @@ def test_daily_pipeline(tmp_path, monkeypatch):
         return {s: src[s] for s in symbols if s in src}
 
     monkeypatch.setattr(data, "get_bars", fake_bars)
+    monkeypatch.setattr(data, "sp500_breadth", lambda: None)
     monkeypatch.setattr(screen, "fetch_universe", lambda: pd.DataFrame(
         {"symbol": [sym], "close": [30.0], "SMA50": [25.0], "average_volume_30d_calc": [1e6]}))
     monkeypatch.setattr(data, "tv_details", lambda s, *a, **k: pd.DataFrame(
