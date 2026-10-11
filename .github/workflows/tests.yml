@@ -16,3 +16,18 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt pytest
       - run: python -m pytest -q
+
+  live-check:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python tools/smoke_live.py 2>&1 | tee live_check.log
+      - name: Show result in the run summary
+        if: always()
+        run: { echo '```'; cat live_check.log; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
