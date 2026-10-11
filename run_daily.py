@@ -172,7 +172,6 @@ def main():
                 "hourly_rvol": trig["hourly_rvol"], "vwap_dist_pct": trig["vwap_dist_pct"],
                 "trigger_hour": trig["trigger_time"][11:16],
                 "sessions_to_earnings": earnings_days(earn.get(sym), D),
-                "headlines_48h": np.nan, "news_tone": "",
                 "action": action_for(s["group"], prev_macro["light"], s.get("cohort_rank")),
             }
             new_signals.append(row)

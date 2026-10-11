@@ -13,6 +13,7 @@ FILES = {
     "signals": DATA / "signals.csv",    # append-only: what was known when the signal fired
     "trades": DATA / "trades.csv",      # outcome of each signal, updated until closed
     "events": DATA / "events.csv",      # FOMC / CPI / jobs days, kept by the weekly review
+    "news": DATA / "news_tags.csv",     # headline count + tone per signal, added by the weekly review
 }
 
 

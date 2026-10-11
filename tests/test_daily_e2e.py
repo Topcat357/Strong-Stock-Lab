@@ -58,7 +58,7 @@ def test_daily_pipeline(tmp_path, monkeypatch):
     vix = spy.assign(close=15.0)
 
     def fake_bars(symbols, interval="1d", period="2y", max_backup=8):
-        src = {sym: stock, "AMEX:SPY": spy, "CBOE:VIX": vix} if interval == "1d" else {sym: hourly}
+        src = ({sym: stock, "AMEX:SPY": spy, "CBOE:VIX": vix} if interval == "1d" else {sym: hourly})
         return {s: src[s] for s in symbols if s in src}
 
     monkeypatch.setattr(data, "get_bars", fake_bars)
@@ -93,3 +93,12 @@ def test_daily_pipeline(tmp_path, monkeypatch):
     assert (tmp_path / "latest.md").exists()
     m = store.load("macro")
     assert m["date"].iloc[-1] == "2026-10-16"
+
+
+def test_report_runs(tmp_path, monkeypatch):
+    import report
+    test_daily_pipeline(tmp_path, monkeypatch)       # leaves one closed trade behind
+    store.FILES["news"].write_text("signal_id,symbol,trigger_time,headlines_48h,news_tone,top_headline\n")
+    assert report.main() == 0
+    md = (tmp_path / "report_latest.md").read_text()
+    assert "Screen vs control" in md and "Cohort by setup type" in md and "Buy-and-hold by cohort" in md

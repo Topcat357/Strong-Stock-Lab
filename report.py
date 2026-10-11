@@ -86,7 +86,13 @@ def main():
     closed = pd.DataFrame()
     if not trd.empty:
         closed = trd[trd["status"] == "closed"].merge(
-            sig[["signal_id", "action", "light", "rule_version", "cohort_rank"]], on="signal_id", how="left")
+            sig[["signal_id", "action", "light", "rule_version", "cohort_rank", "setup_reasons"]],
+            on="signal_id", how="left")
+        news = store.load("news")
+        if not news.empty:
+            closed = closed.merge(news[["signal_id", "news_tone"]], on="signal_id", how="left")
+        else:
+            closed["news_tone"] = np.nan
         lines.append(f"{len(closed)} closed and {int((trd['status'] == 'open').sum())} open shadow trades.")
     else:
         lines.append("No shadow trades yet.")
@@ -101,6 +107,11 @@ def main():
                                   for a in ("take", "take_half", "skip", "log_only")}
         by["Cohort by exit"] = {e: stats(coh[coh["exit_reason"] == e])
                                 for e in ("target", "stop", "rsi2_strength", "time_stop")}
+        by["Cohort by setup type"] = {r: stats(coh[coh["setup_reasons"].fillna("").str.contains(r)])
+                                      for r in ("rsi2", "ema20", "down_streak")}
+        by["Cohort by news (48h before trigger)"] = {
+            t: stats(coh[coh["news_tone"].fillna("none") == t])
+            for t in ("positive", "negative", "neutral", "none")}
         by["By rule version"] = {v: stats(coh[coh["rule_version"] == v])
                                  for v in sorted(coh["rule_version"].dropna().unique())}
         for title, groups in by.items():
