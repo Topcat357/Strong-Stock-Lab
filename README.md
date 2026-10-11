@@ -34,6 +34,7 @@ The daily job catches up on any sessions it missed and skips ones already done.
 | `trades.csv` | Each signal's shadow trade: entry, stop, target, exit, R, MFE/MAE, SPY over the same window |
 | `latest.md` | Today's summary |
 | `report_latest.md` / `.json` | Weekly results by group, light, action, exit and rule version |
+| `news_tags.csv` | Headlines in the 48h before each signal: `massive` rows at the moment it fires, `tradingview` rows added by the Sunday review |
 | `events.csv` | FOMC / CPI / jobs days (red light). Kept current by the weekly review. |
 
 ## Rules
@@ -46,8 +47,8 @@ All thresholds live in [`lab/config.py`](lab/config.py). Changing any of them me
 - TradingView screener service: the market-wide screen, breadth and earnings dates.
   Optional secret `TV_SESSIONID` (same as Gap-Scan).
 - Yahoo Finance (`yfinance`): daily and hourly bars.
-- Massive: backup daily bars when Yahoo misses a symbol. Optional secret `MASSIVE_API_KEY`
-  (free tier, 5 calls a minute).
+- Massive: news and sentiment for each new signal, and backup daily bars when Yahoo misses a
+  symbol. Secret `MASSIVE_API_KEY` (free tier, 5 calls a minute).
 
 ## Run locally
 
