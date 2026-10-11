@@ -1,0 +1,48 @@
+name: Daily after close
+
+# 4:30 pm New York time on weekdays (both summer and winter UTC hours).
+# The job catches up any sessions it missed and skips ones already done,
+# so a late or doubled run is harmless.
+on:
+  schedule:
+    - cron: "30 20,21 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Optional: process just this session (YYYY-MM-DD)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lab
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run daily job
+        env:
+          TV_SESSIONID: ${{ secrets.TV_SESSIONID }}
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+          ONE_DATE: ${{ github.event.inputs.date }}
+        run: |
+          if [ -n "$ONE_DATE" ]; then python run_daily.py --date "$ONE_DATE"; else python run_daily.py; fi
+      - name: Save to the repo
+        run: |
+          git config user.name "strong-stock-lab-bot"
+          git config user.email "strong-stock-lab-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && echo "Nothing new" && exit 0
+          git commit -m "Daily $(TZ=America/New_York date '+%Y-%m-%d')"
+          git pull --rebase
+          git push
