@@ -1,0 +1,6 @@
+[09:08:09] Processing: ['2026-10-09']
+
+1 Failed download:
+['^VIX']: OperationalError('database is locked')
+Yahoo missed 1 1d symbols: ['CBOE:VIX']
+[09:08:10] Bars: 1 daily, 0 hourly
