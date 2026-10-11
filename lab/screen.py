@@ -7,7 +7,7 @@ from . import config, data
 from .indicators import sma
 
 UNIVERSE_COLUMNS = [
-    "name", "close", "SMA50", "SMA200", "Perf.6M", "Perf.Y", "price_52_week_high",
+    "description", "close", "SMA50", "SMA200", "Perf.6M", "Perf.Y", "price_52_week_high",
     "average_volume_30d_calc", "market_cap_basic", "sector",
     "earnings_release_next_date", "total_revenue_yoy_growth_fq",
 ]
@@ -90,7 +90,7 @@ def build(cohort_date: str):
     strong["rank"] = np.arange(1, len(strong) + 1)
     control = pick_control(liq, set(strong["symbol"]), cohort_date)
     control = control.assign(group="control", rank=np.nan)
-    out = pd.concat([strong, control], ignore_index=True)
+    out = pd.concat([strong, control], ignore_index=True).rename(columns={"description": "name"})
     out.insert(0, "cohort_date", cohort_date)
     out["rule_version"] = config.RULE_VERSION
     cols = ["cohort_date", "group", "rank", "symbol", "name", "sector", "close", "rs_pct",
