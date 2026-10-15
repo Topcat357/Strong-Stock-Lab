@@ -13,3 +13,20 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-10-14-CVBF-c,NASDAQ:CVBF,2026-10-14T10:30:00-04:00,massive,1,neutral,0,0,1,CVB Financial (CVBF) Earnings Expected to Grow: What to Know Ahead of Next Week'
 2026-10-14-HOMB-c,NYSE:HOMB,2026-10-14T11:30:00-04:00,massive,1,positive,1,0,0,"Don't Overlook These Top Bank Stocks as Q3 Earnings Approach: EQBK, HOMB"
 2026-10-14-CBZ-c,NYSE:CBZ,2026-10-14T13:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-GFF-c,NYSE:GFF,2026-10-14T15:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-PRCH-c,NASDAQ:PRCH,2026-10-15T11:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-SDGR-c,NASDAQ:SDGR,2026-10-15T14:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-MEI-c,NYSE:MEI,2026-10-15T10:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-ESTC-c,NYSE:ESTC,2026-10-15T11:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-NSP-c,NYSE:NSP,2026-10-15T09:30:00-04:00,massive,1,positive,1,0,0,ManpowerGroup (MAN) Matches Q3 Earnings Estimates
+2026-10-15-CLMT-c,NASDAQ:CLMT,2026-10-15T09:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-SLG-c,NYSE:SLG,2026-10-15T11:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-UMAC-c,AMEX:UMAC,2026-10-15T14:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-ERAS-c,NASDAQ:ERAS,2026-10-15T13:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-HPE-c,NYSE:HPE,2026-10-15T11:30:00-04:00,massive,2,positive,1,0,1,4 Stocks Trading Near 52-Week High With Room to Rise Further
+2026-10-15-NTNX-c,NASDAQ:NTNX,2026-10-15T14:30:00-04:00,massive,1,neutral,0,0,1,MongoDB Falls 11% YTD: Here's Why You Should Buy the Stock Now
+2026-10-15-S-c,NYSE:S,2026-10-15T14:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-PENG-c,NASDAQ:PENG,2026-10-15T14:30:00-04:00,massive,2,positive,1,0,1,Block's AI-Powered Kiosk Launch to Drive Revenue and Merchant Growth
+2026-10-15-TENB-c,NASDAQ:TENB,2026-10-15T14:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-RNG-c,NYSE:RNG,2026-10-15T09:30:00-04:00,massive,0,none,0,0,0,
+2026-10-15-NIQ-c,NYSE:NIQ,2026-10-15T10:30:00-04:00,massive,0,none,0,0,0,
