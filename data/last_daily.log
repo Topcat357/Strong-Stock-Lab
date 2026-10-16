@@ -1,4 +1,7 @@
-[19:11:20] Processing: ['2026-10-15']
-[19:11:37] Bars: 122 daily, 120 hourly
-[19:11:38] 2026-10-15: light yellow, 28 new setups, 13 open trades
-[19:15:23] News tags: 17 of 17 signals from Massive
+[18:57:15] Processing: ['2026-10-16']
+
+1 Failed download:
+['DEA']: OperationalError('database is locked')
+[18:57:26] Bars: 122 daily, 120 hourly
+[18:57:27] 2026-10-16: light yellow, 28 new setups, 5 open trades
+[18:59:00] News tags: 7 of 7 signals from Massive

@@ -30,3 +30,10 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-10-15-TENB-c,NASDAQ:TENB,2026-10-15T14:30:00-04:00,massive,0,none,0,0,0,
 2026-10-15-RNG-c,NYSE:RNG,2026-10-15T09:30:00-04:00,massive,0,none,0,0,0,
 2026-10-15-NIQ-c,NYSE:NIQ,2026-10-15T10:30:00-04:00,massive,0,none,0,0,0,
+2026-10-16-PUBM-c,NASDAQ:PUBM,2026-10-15T15:30:00-04:00,massive,0,none,0,0,0,
+2026-10-16-VG-c,NYSE:VG,2026-10-16T12:30:00-04:00,massive,0,none,0,0,0,
+2026-10-16-GPRE-c,NASDAQ:GPRE,2026-10-16T11:30:00-04:00,massive,0,none,0,0,0,
+2026-10-16-PRCH-c,NASDAQ:PRCH,2026-10-16T09:30:00-04:00,massive,0,none,0,0,0,
+2026-10-16-OSCR-c,NYSE:OSCR,2026-10-16T11:30:00-04:00,massive,7,positive,7,0,0,Oscar Health vs. Molina: Which Healthcare Stock Is a Better Buy?
+2026-10-16-GEO-c,NYSE:GEO,2026-10-16T12:30:00-04:00,massive,1,positive,1,0,0,Here's Why Investors Should Hold TT Stock in Their Portfolios Now
+2026-10-16-HOMB-c,NYSE:HOMB,2026-10-16T09:30:00-04:00,massive,2,positive,1,0,1,Home BancShares (HOMB) Q3 Earnings: How Key Metrics Compare to Wall Street Estim

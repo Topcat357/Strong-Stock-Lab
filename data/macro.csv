@@ -5,3 +5,4 @@ date,spy_close,spy_sma50,spy_sma200,vix,breadth_pct,next_session,event_next,ligh
 2026-10-13,778.01,768.603,723.817,15.27,38.0478,2026-10-14,CPI,red,event: CPI,v1
 2026-10-14,769.6,768.568,724.214,16.87,35.0598,2026-10-15,,yellow,breadth 35%,v1
 2026-10-15,771.79,768.608,724.633,16.46,44.0239,2026-10-16,,yellow,breadth 44%,v1
+2026-10-16,763.25,768.502,725.015,19.99,45.0199,2026-10-19,,yellow,SPY not above a rising 50/200 stack; breadth 45%,v1
