@@ -1,4 +1,2 @@
-[19:16:46] Wrote data/report_latest.md
-[19:16:47] Universe: 2122 stocks
-[19:16:47] Liquid: 1502; first pass: 180
-[19:16:55] Saved cohort_2026-10-18.csv: 60 cohort + 60 control
+[19:22:22] Wrote data/report_latest.md
+cohort_2026-10-18.csv already exists; past cohorts are never rebuilt (use --force today only).

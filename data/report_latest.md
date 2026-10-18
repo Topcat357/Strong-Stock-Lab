@@ -1,5 +1,7 @@
 # Strong-Stock Lab report, 2026-10-18
 
+News sources agree on 12 of 38 signals tagged by both.
+
 33 closed and 5 open shadow trades.
 
 ## Screen vs control
@@ -62,4 +64,5 @@
 
 | Cohort | Through | Cohort % | Control % | SPY % |
 |---|---|---|---|---|
-| 2026-10-11 | today | -5.68 | -1.86 | -1.97 |
+| 2026-10-11 | 2026-10-18 | -5.68 | -1.86 | -1.97 |
+| 2026-10-18 | today | 0.0 | 0.0 | 0.0 |
