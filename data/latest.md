@@ -1,33 +1,26 @@
-# Strong-Stock Lab: 2026-10-16
+# Strong-Stock Lab: 2026-10-19
 
-Light for 2026-10-19: **YELLOW** (SPY not above a rising 50/200 stack; breadth 45%).
+Light for 2026-10-20: **YELLOW** (SPY not above a rising 50/200 stack; breadth 44%).
 
-New signals: 7 · Open shadow trades: 5 · Closed so far: 33 · Setups waiting: 60
+New signals: 8 · Open shadow trades: 7 · Closed so far: 39 · Setups waiting: 65
 
 ## New signals
 
 | Symbol | Group | Entry | Action |
 |---|---|---|---|
-| PUBM | cohort | 17.92 | take_half |
-| VG | control | 12.26 | control |
-| GPRE | control | 14.64 | control |
-| PRCH | cohort | 17.91 | take_half |
-| OSCR | cohort | 32.50 | take_half |
-| GEO | cohort | 28.70 | skip |
-| HOMB | control | 29.42 | control |
+| AVTR | cohort | 16.42 | skip |
+| XERS | cohort | 11.06 | skip |
+| XNCR | cohort | 22.69 | skip |
+| NSP | cohort | 51.19 | skip |
+| HTFL | cohort | 51.29 | skip |
+| MAN | cohort | 41.65 | skip |
+| MEI | cohort | 14.06 | take_half |
+| HOMB | control | 29.12 | control |
 
 ## Setups waiting for an hourly trigger
 
 | Symbol | Group | Since | Why |
 |---|---|---|---|
-| IOVA | cohort | 2026-10-14 | down_streak |
-| ZETA | cohort | 2026-10-14 | ema20 |
-| AVTR | cohort | 2026-10-14 | ema20 |
-| COHU | cohort | 2026-10-14 | rsi2+down_streak |
-| FRSH | cohort | 2026-10-14 | ema20 |
-| XERS | cohort | 2026-10-14 | rsi2+ema20+down_streak |
-| EPC | control | 2026-10-14 | ema20 |
-| TRS | control | 2026-10-14 | ema20 |
 | QMCO | cohort | 2026-10-15 | rsi2+down_streak |
 | FIVN | cohort | 2026-10-15 | ema20 |
 | MRVI | cohort | 2026-10-15 | ema20 |
@@ -37,12 +30,8 @@ New signals: 7 · Open shadow trades: 5 · Closed so far: 33 · Setups waiting: 
 | ETON | cohort | 2026-10-15 | rsi2+down_streak |
 | ATRC | cohort | 2026-10-15 | ema20 |
 | BFLY | cohort | 2026-10-15 | ema20 |
-| XNCR | cohort | 2026-10-15 | ema20 |
 | LFST | cohort | 2026-10-15 | ema20 |
-| NSP | cohort | 2026-10-15 | ema20 |
 | ECO | cohort | 2026-10-15 | rsi2+ema20 |
-| HTFL | cohort | 2026-10-15 | ema20 |
-| MAN | cohort | 2026-10-15 | rsi2 |
 | AVAH | cohort | 2026-10-15 | ema20 |
 | PGEN | cohort | 2026-10-15 | rsi2+ema20+down_streak |
 | CYRX | cohort | 2026-10-15 | ema20 |
@@ -61,7 +50,6 @@ New signals: 7 · Open shadow trades: 5 · Closed so far: 33 · Setups waiting: 
 | PSNL | cohort | 2026-10-16 | rsi2+ema20 |
 | TENB | cohort | 2026-10-16 | ema20 |
 | SDGR | cohort | 2026-10-16 | rsi2 |
-| MEI | cohort | 2026-10-16 | rsi2 |
 | OSCR | cohort | 2026-10-16 | rsi2+ema20 |
 | PUBM | cohort | 2026-10-16 | rsi2 |
 | ESTC | cohort | 2026-10-16 | ema20 |
@@ -77,6 +65,24 @@ New signals: 7 · Open shadow trades: 5 · Closed so far: 33 · Setups waiting: 
 | LIND | cohort | 2026-10-16 | rsi2+ema20 |
 | FA | cohort | 2026-10-16 | ema20 |
 | PGNY | cohort | 2026-10-16 | rsi2+ema20 |
-| HOMB | control | 2026-10-16 | ema20 |
 | CBZ | control | 2026-10-16 | ema20 |
 | ADM | control | 2026-10-16 | ema20 |
+| PRCH | cohort | 2026-10-19 | ema20 |
+| FROG | cohort | 2026-10-19 | ema20 |
+| CLMT | cohort | 2026-10-19 | rsi2+ema20 |
+| ZETA | cohort | 2026-10-19 | ema20 |
+| KNSA | cohort | 2026-10-19 | ema20 |
+| VSXY | cohort | 2026-10-19 | ema20 |
+| HELE | cohort | 2026-10-19 | ema20 |
+| NIQ | cohort | 2026-10-19 | ema20 |
+| GEO | cohort | 2026-10-19 | rsi2+down_streak |
+| BJRI | cohort | 2026-10-19 | ema20 |
+| VREX | cohort | 2026-10-19 | ema20 |
+| URGN | control | 2026-10-19 | rsi2 |
+| GRC | control | 2026-10-19 | ema20 |
+| EW | control | 2026-10-19 | ema20 |
+| AXTA | control | 2026-10-19 | ema20 |
+| SFL | control | 2026-10-19 | rsi2+down_streak |
+| SWKS | control | 2026-10-19 | ema20 |
+| FOX | control | 2026-10-19 | ema20 |
+| BZH | control | 2026-10-19 | ema20 |

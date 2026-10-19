@@ -75,3 +75,11 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-10-16-GPRE-c,NASDAQ:GPRE,2026-10-16T11:30:00-04:00,tradingview,0,none,0,0,0,
 2026-10-16-VG-c,NYSE:VG,2026-10-16T12:30:00-04:00,tradingview,20,positive,14,0,6,"Venture Global taps GE Vernova, Baker Hughes for AI power push"
 2026-10-16-GEO-c,NYSE:GEO,2026-10-16T12:30:00-04:00,tradingview,1,neutral,0,0,1,GEO Group sets Q3 earnings date
+2026-10-19-AVTR-c,NYSE:AVTR,2026-10-16T15:30:00-04:00,massive,0,none,0,0,0,
+2026-10-19-XERS-c,NASDAQ:XERS,2026-10-19T10:30:00-04:00,massive,0,none,0,0,0,
+2026-10-19-XNCR-c,NASDAQ:XNCR,2026-10-19T11:30:00-04:00,massive,0,none,0,0,0,
+2026-10-19-NSP-c,NYSE:NSP,2026-10-19T10:30:00-04:00,massive,0,none,0,0,0,
+2026-10-19-HTFL-c,NASDAQ:HTFL,2026-10-19T10:30:00-04:00,massive,0,none,0,0,0,
+2026-10-19-MAN-c,NYSE:MAN,2026-10-19T11:30:00-04:00,massive,1,positive,1,0,0,ManpowerGroup: 3 Key Takeaways for Long-Term Investors
+2026-10-19-MEI-c,NYSE:MEI,2026-10-19T11:30:00-04:00,massive,0,none,0,0,0,
+2026-10-19-HOMB-c,NYSE:HOMB,2026-10-19T14:30:00-04:00,massive,1,positive,1,0,0,Home Bancshares: 3 Key Takeaways for Long-Term Investors
