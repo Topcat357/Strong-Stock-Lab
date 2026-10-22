@@ -1,43 +1,27 @@
-# Strong-Stock Lab: 2026-10-21
+# Strong-Stock Lab: 2026-10-22
 
-Light for 2026-10-22: **GREEN** (all clear).
+Light for 2026-10-23: **YELLOW** (SPY not above a rising 50/200 stack).
 
-New signals: 9 · Open shadow trades: 5 · Closed so far: 69 · Setups waiting: 38
+New signals: 5 · Open shadow trades: 4 · Closed so far: 75 · Setups waiting: 41
 
 ## New signals
 
 | Symbol | Group | Entry | Action |
 |---|---|---|---|
-| PSNL | cohort | 16.09 | take |
-| TENB | cohort | 41.36 | take |
-| S | cohort | 23.19 | take |
-| BJRI | cohort | 58.25 | take |
-| VREX | cohort | 18.43 | take |
-| EW | control | 88.07 | control |
-| AVAH | cohort | 12.92 | take |
-| LFST | cohort | 12.40 | take |
-| AXTA | control | 34.78 | control |
+| GEO | cohort | 26.77 | take |
+| SFL | control | 12.44 | control |
+| LFST | cohort | 12.41 | take |
+| FA | cohort | 20.75 | take |
+| EW | control | 89.69 | control |
 
 ## Setups waiting for an hourly trigger
 
 | Symbol | Group | Since | Why |
 |---|---|---|---|
-| FROG | cohort | 2026-10-19 | ema20 |
-| CLMT | cohort | 2026-10-19 | rsi2+ema20 |
-| ZETA | cohort | 2026-10-19 | ema20 |
-| VSXY | cohort | 2026-10-19 | ema20 |
-| HELE | cohort | 2026-10-19 | ema20 |
-| GEO | cohort | 2026-10-19 | rsi2+down_streak |
-| URGN | control | 2026-10-19 | rsi2 |
-| SFL | control | 2026-10-19 | rsi2+down_streak |
-| SWKS | control | 2026-10-19 | ema20 |
-| FOX | control | 2026-10-19 | ema20 |
-| BZH | control | 2026-10-19 | ema20 |
 | FIVN | cohort | 2026-10-20 | ema20 |
 | ATRC | cohort | 2026-10-20 | ema20 |
 | ECO | cohort | 2026-10-20 | rsi2+ema20 |
 | SXC | cohort | 2026-10-20 | rsi2+ema20 |
-| KFRC | cohort | 2026-10-20 | ema20 |
 | CYRX | cohort | 2026-10-20 | ema20 |
 | GME | control | 2026-10-20 | ema20 |
 | OSCR | cohort | 2026-10-21 | ema20 |
@@ -46,17 +30,32 @@ New signals: 9 · Open shadow trades: 5 · Closed so far: 69 · Setups waiting: 
 | RDVT | cohort | 2026-10-21 | ema20 |
 | UTZ | cohort | 2026-10-21 | ema20 |
 | AVAH | cohort | 2026-10-21 | ema20 |
-| LFST | cohort | 2026-10-21 | ema20 |
 | KNSA | cohort | 2026-10-21 | ema20 |
 | PUBM | cohort | 2026-10-21 | ema20 |
 | MGNI | cohort | 2026-10-21 | ema20 |
 | ADPT | cohort | 2026-10-21 | ema20 |
-| FA | cohort | 2026-10-21 | ema20 |
 | BJRI | cohort | 2026-10-21 | rsi2 |
 | DIOD | control | 2026-10-21 | ema20 |
 | KOD | control | 2026-10-21 | ema20 |
 | SMCI | control | 2026-10-21 | ema20 |
 | WMB | control | 2026-10-21 | ema20 |
-| GRC | control | 2026-10-21 | ema20 |
 | PENG | control | 2026-10-21 | ema20 |
-| EW | control | 2026-10-21 | ema20 |
+| IOVA | cohort | 2026-10-22 | ema20 |
+| PAYS | cohort | 2026-10-22 | ema20 |
+| GTLB | cohort | 2026-10-22 | ema20 |
+| PRCH | cohort | 2026-10-22 | ema20 |
+| PBF | cohort | 2026-10-22 | rsi2+ema20 |
+| ETON | cohort | 2026-10-22 | ema20 |
+| CVI | cohort | 2026-10-22 | ema20 |
+| FROG | cohort | 2026-10-22 | ema20 |
+| RNG | cohort | 2026-10-22 | ema20 |
+| CLMT | cohort | 2026-10-22 | rsi2 |
+| ZETA | cohort | 2026-10-22 | ema20 |
+| LFST | cohort | 2026-10-22 | ema20 |
+| LIND | cohort | 2026-10-22 | ema20 |
+| DT | cohort | 2026-10-22 | ema20 |
+| VSXY | cohort | 2026-10-22 | ema20 |
+| HELE | cohort | 2026-10-22 | ema20 |
+| GEN | control | 2026-10-22 | ema20 |
+| SWKS | control | 2026-10-22 | ema20 |
+| HTGC | control | 2026-10-22 | ema20 |

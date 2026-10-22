@@ -9,3 +9,4 @@ date,spy_close,spy_sma50,spy_sma200,vix,breadth_pct,next_session,event_next,ligh
 2026-10-19,766.48,768.366,725.437,18.44,43.8247,2026-10-20,,yellow,SPY not above a rising 50/200 stack; breadth 44%,v1
 2026-10-20,769.05,768.287,725.867,17.31,51.992,2026-10-21,,green,all clear,v1
 2026-10-21,773.09,768.337,726.294,16.68,55.1793,2026-10-22,,green,all clear,v1
+2026-10-22,763.96,768.167,726.654,19.03,60.5578,2026-10-23,,yellow,SPY not above a rising 50/200 stack,v1
