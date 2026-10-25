@@ -123,3 +123,43 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-10-23-LFST-c,NASDAQ:LFST,2026-10-23T10:30:00-04:00,massive,0,none,0,0,0,
 2026-10-23-DT-c,NYSE:DT,2026-10-23T13:30:00-04:00,massive,1,negative,0,1,0,FJTSY or DT: Which Is the Better Value Stock Right Now?
 2026-10-23-HTGC-c,NYSE:HTGC,2026-10-23T14:30:00-04:00,massive,0,none,0,0,0,
+2026-10-19-AVTR-c,NYSE:AVTR,2026-10-16T15:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-19-XERS-c,NASDAQ:XERS,2026-10-19T10:30:00-04:00,tradingview,1,neutral,0,0,1,Weekly recap: KEVEYIS patent suits and Gvoke guideline gap
+2026-10-19-NSP-c,NYSE:NSP,2026-10-19T10:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-19-HTFL-c,NASDAQ:HTFL,2026-10-19T10:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-19-XNCR-c,NASDAQ:XNCR,2026-10-19T11:30:00-04:00,tradingview,1,neutral,0,0,1,Xencor to host webcast on XmAb819 kidney cancer phase 1 data
+2026-10-19-MAN-c,NYSE:MAN,2026-10-19T11:30:00-04:00,tradingview,1,neutral,0,0,1,"Weekly recap: $200M cost cuts, AI tools, Q3 cash outflow"
+2026-10-19-MEI-c,NYSE:MEI,2026-10-19T11:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-19-HOMB-c,NYSE:HOMB,2026-10-19T14:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-20-RDVT-c,NASDAQ:RDVT,2026-10-19T15:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-20-KNSA-c,NASDAQ:KNSA,2026-10-20T09:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-20-PGEN-c,NASDAQ:PGEN,2026-10-20T09:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-20-CYRX-c,NASDAQ:CYRX,2026-10-20T09:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-20-AMPL-c,NASDAQ:AMPL,2026-10-20T09:30:00-04:00,tradingview,2,positive,2,0,0,BTIG raises Amplitude price target to $17 from $13
+2026-10-20-LIND-c,NASDAQ:LIND,2026-10-20T10:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-20-PAYS-c,NASDAQ:PAYS,2026-10-20T10:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-20-PRCH-c,NASDAQ:PRCH,2026-10-20T10:30:00-04:00,tradingview,1,neutral,0,0,1,Porch Group sets Q3 earnings release for Oct 28
+2026-10-20-RSKD-c,NYSE:RSKD,2026-10-20T11:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-20-PBF-c,NYSE:PBF,2026-10-20T11:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-20-CDNA-c,NASDAQ:CDNA,2026-10-20T11:30:00-04:00,tradingview,2,positive,1,0,1,Canaccord raises CareDx price target to $80 from $65
+2026-10-20-NTNX-c,NASDAQ:NTNX,2026-10-20T12:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-20-CVI-c,NYSE:CVI,2026-10-20T12:30:00-04:00,tradingview,1,neutral,0,0,1,CVR Energy sets date for Q3 earnings release
+2026-10-20-DK-c,NYSE:DK,2026-10-20T12:30:00-04:00,tradingview,1,positive,1,0,0,"Weekly recap: government-backed refinery expansion, Q3 date"
+2026-10-20-NIQ-c,NYSE:NIQ,2026-10-20T12:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-20-DT-c,NYSE:DT,2026-10-20T13:30:00-04:00,tradingview,1,neutral,0,0,1,Dynatrace sets date for fiscal Q2 2027 results
+2026-10-20-MGNI-c,NASDAQ:MGNI,2026-10-20T13:30:00-04:00,tradingview,1,neutral,0,0,1,Trade Desk widens CTV reach in Italy; Magnite mentioned
+2026-10-20-CVBF-c,NASDAQ:CVBF,2026-10-20T14:30:00-04:00,tradingview,1,neutral,0,0,1,CVB Financial earnings preview: what to watch
+2026-10-20-AXTA-c,NYSE:AXTA,2026-10-20T14:30:00-04:00,tradingview,1,neutral,0,0,1,Axalta publishes 2026-27 automotive color trends
+2026-10-21-AXTA-c,NYSE:AXTA,2026-10-21T09:30:00-04:00,tradingview,10,positive,3,0,7,AkzoNobel and Axalta near merger approvals with two unit sales
+2026-10-21-VREX-c,NASDAQ:VREX,2026-10-21T10:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-21-BJRI-c,NASDAQ:BJRI,2026-10-21T11:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-21-EW-c,NYSE:EW,2026-10-21T11:30:00-04:00,tradingview,1,positive,1,0,0,Edwards wins FDA approval for PASCAL tricuspid valve system
+2026-10-21-LFST-c,NASDAQ:LFST,2026-10-21T11:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-21-S-c,NYSE:S,2026-10-21T12:30:00-04:00,tradingview,14,positive,12,0,2,"SentinelOne launches AI-agent security tools, expands Lenovo deal"
+2026-10-21-PSNL-c,NASDAQ:PSNL,2026-10-21T12:30:00-04:00,tradingview,4,positive,4,0,0,Personalis launches real-time variant tracker for MRD test
+2026-10-21-TENB-c,NASDAQ:TENB,2026-10-21T12:30:00-04:00,tradingview,3,positive,2,0,1,Truist raises Tenable price target to $35 from $30
+2026-10-21-AVAH-c,NASDAQ:AVAH,2026-10-21T14:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-22-FA-c,NASDAQ:FA,2026-10-22T10:30:00-04:00,tradingview,2,positive,2,0,0,First Advantage and ID.me launch hiring ID-fraud detection tool
+2026-10-22-SFL-c,NYSE:SFL,2026-10-22T11:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-22-LFST-c,NASDAQ:LFST,2026-10-22T13:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-22-GEO-c,NYSE:GEO,2026-10-22T13:30:00-04:00,tradingview,0,none,0,0,0,
