@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-10-25T19:16-04:00",
+  "as_of": "2026-10-25T19:22-04:00",
   "news_source_agreement": {
-    "signals_with_both": 38,
-    "agree": 12
+    "signals_with_both": 78,
+    "agree": 34
   },
   "breakdowns": {
     "Screen vs control": {
@@ -264,10 +264,17 @@
     },
     {
       "cohort": "2026-10-18",
-      "through": "today",
+      "through": "2026-10-25",
       "cohort_ret_pct": 4.85,
       "control_ret_pct": 1.31,
       "spy_ret_pct": -0.43
+    },
+    {
+      "cohort": "2026-10-25",
+      "through": "today",
+      "cohort_ret_pct": 0.0,
+      "control_ret_pct": 0.0,
+      "spy_ret_pct": 0.0
     }
   ]
 }
