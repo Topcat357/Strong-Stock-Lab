@@ -171,3 +171,14 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-10-26-VSXY-c,NYSE:VSXY,2026-10-26T09:30:00-04:00,massive,0,none,0,0,0,
 2026-10-26-GRC-c,NYSE:GRC,2026-10-26T12:30:00-04:00,massive,0,none,0,0,0,
 2026-10-26-EW-c,NYSE:EW,2026-10-26T09:30:00-04:00,massive,0,none,0,0,0,
+2026-10-27-SXC-c,NYSE:SXC,2026-10-27T09:30:00-04:00,massive,0,none,0,0,0,
+2026-10-27-SFL-c,NYSE:SFL,2026-10-27T12:30:00-04:00,massive,0,none,0,0,0,
+2026-10-27-MRVI-c,NASDAQ:MRVI,2026-10-27T11:30:00-04:00,massive,0,none,0,0,0,
+2026-10-27-HPE-c,NYSE:HPE,2026-10-27T11:30:00-04:00,massive,3,positive,2,0,1,Can SMCI's DCBBS and DLC Improve its Financial Outlook in 2026?
+2026-10-27-UTZ-c,NYSE:UTZ,2026-10-27T10:30:00-04:00,massive,1,negative,0,1,0,$HAREHOLDER ALERT: The M&A Class Action Firm Launches Investigation for the Merg
+2026-10-27-CBZ-c,NYSE:CBZ,2026-10-27T14:30:00-04:00,massive,0,none,0,0,0,
+2026-10-27-KNSA-c,NASDAQ:KNSA,2026-10-27T09:30:00-04:00,massive,0,none,0,0,0,
+2026-10-27-CNC-c,NYSE:CNC,2026-10-27T09:30:00-04:00,massive,1,positive,1,0,0,Centene (CNC) Q3 Earnings and Revenues Surpass Estimates
+2026-10-27-PCVX-c,NASDAQ:PCVX,2026-10-27T14:30:00-04:00,massive,0,none,0,0,0,
+2026-10-27-NP-c,NYSE:NP,2026-10-27T12:30:00-04:00,massive,0,none,0,0,0,
+2026-10-27-RDNT-c,NASDAQ:RDNT,2026-10-27T09:30:00-04:00,massive,0,none,0,0,0,
