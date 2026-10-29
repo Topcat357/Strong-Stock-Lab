@@ -2,23 +2,7 @@
 
 Light for 2026-10-28: **RED** (event: FOMC).
 
-New signals: 11 · Open shadow trades: 6 · Closed so far: 99 · Setups waiting: 41
-
-## New signals
-
-| Symbol | Group | Entry | Action |
-|---|---|---|---|
-| SXC | cohort | 10.93 | skip |
-| SFL | control | 12.73 | control |
-| MRVI | cohort | 8.05 | take_half |
-| HPE | cohort | 61.07 | skip |
-| UTZ | cohort | 14.31 | skip |
-| CBZ | cohort | 54.81 | skip |
-| KNSA | cohort | 85.65 | skip |
-| CNC | cohort | 70.19 | skip |
-| PCVX | control | 60.63 | control |
-| NP | control | 28.89 | control |
-| RDNT | control | 73.90 | control |
+New signals: 0 · Open shadow trades: 6 · Closed so far: 99 · Setups waiting: 41
 
 ## Setups waiting for an hourly trigger
 
