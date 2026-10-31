@@ -14,3 +14,5 @@ date,spy_close,spy_sma50,spy_sma200,vix,breadth_pct,next_session,event_next,ligh
 2026-10-26,765.37,767.589,727.386,18.39,59.3625,2026-10-27,,yellow,SPY not above a rising 50/200 stack,v1
 2026-10-27,769.66,767.529,727.764,17.52,60.1594,2026-10-28,FOMC,red,event: FOMC,v1
 2026-10-28,772.31,767.626,728.149,16.91,,2026-10-29,,green,all clear,v1
+2026-10-29,769.36,767.632,728.527,17.2,,2026-10-30,,green,all clear,v1
+2026-10-30,755.72,767.494,728.854,19.42,60.1593625498008,2026-11-02,,yellow,SPY not above a rising 50/200 stack,v1
