@@ -1,6 +1,6 @@
 # Strong-Stock Lab report, 2026-11-01
 
-News sources agree on 34 of 78 signals tagged by both.
+News sources agree on 52 of 118 signals tagged by both.
 
 117 closed and 8 open shadow trades.
 
@@ -66,4 +66,5 @@ News sources agree on 34 of 78 signals tagged by both.
 |---|---|---|---|---|
 | 2026-10-11 | 2026-10-18 | -5.68 | -1.86 | -1.97 |
 | 2026-10-18 | 2026-10-25 | 4.85 | 1.31 | -0.43 |
-| 2026-10-25 | today | -0.04 | 1.32 | -0.56 |
+| 2026-10-25 | 2026-11-01 | -0.04 | 1.32 | -0.56 |
+| 2026-11-01 | today | 0.0 | 0.0 | 0.0 |
