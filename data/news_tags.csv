@@ -202,3 +202,43 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-10-30-NSP-c,NYSE:NSP,2026-10-30T10:30:00-04:00,massive,1,neutral,0,0,1,"Insperity, Inc. (NSP) Tops Q3 Earnings and Revenue Estimates"
 2026-10-30-AMTB-c,NYSE:AMTB,2026-10-30T14:30:00-04:00,massive,0,none,0,0,0,
 2026-10-30-KBR-c,NYSE:KBR,2026-10-30T11:30:00-04:00,massive,1,neutral,0,0,1,KBR Inc. (KBR) Q3 Earnings Surpass Estimates
+2026-10-22-EW-c,NYSE:EW,2026-10-22T14:30:00-04:00,tradingview,2,positive,1,0,1,FDA approves Edwards PASCAL system for tricuspid valve disease
+2026-10-26-EW-c,NYSE:EW,2026-10-26T09:30:00-04:00,tradingview,1,positive,1,0,0,Weekly recap: PASCAL Ace FDA clearance and one-year CLASP IITR results
+2026-10-23-GTLB-c,NASDAQ:GTLB,2026-10-23T10:30:00-04:00,tradingview,1,positive,1,0,0,GitLab 12-month consensus price target raised to about 56 dollars
+2026-10-23-LFST-c,NASDAQ:LFST,2026-10-23T10:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-23-DK-c,NYSE:DK,2026-10-23T11:30:00-04:00,tradingview,2,positive,1,0,1,White House invokes Defense Production Act to boost US oil refining
+2026-10-23-FIVN-c,NASDAQ:FIVN,2026-10-23T13:30:00-04:00,tradingview,1,positive,1,0,0,Five9 named a Gartner Magic Quadrant leader for contact center for ninth time
+2026-10-23-RDVT-c,NASDAQ:RDVT,2026-10-23T13:30:00-04:00,tradingview,1,positive,1,0,0,red violet debuts at No. 43 on Fortune fastest-growing companies list
+2026-10-29-RDVT-c,NASDAQ:RDVT,2026-10-29T11:30:00-04:00,tradingview,1,neutral,0,0,1,Q3 earnings preview: revenue estimate about 27M dollars
+2026-10-23-DT-c,NYSE:DT,2026-10-23T13:30:00-04:00,tradingview,2,positive,2,0,0,Bank names Dynatrace a top software pick; consensus price target raised
+2026-10-23-HTGC-c,NYSE:HTGC,2026-10-23T14:30:00-04:00,tradingview,1,neutral,0,0,1,Q3 earnings preview: revenue estimate about 144M dollars
+2026-10-26-ADPT-c,NASDAQ:ADPT,2026-10-23T15:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-26-VSXY-c,NYSE:VSXY,2026-10-26T09:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-26-DIOD-c,NASDAQ:DIOD,2026-10-26T10:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-26-CLMT-c,NASDAQ:CLMT,2026-10-26T10:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-26-RNG-c,NYSE:RNG,2026-10-26T12:30:00-04:00,tradingview,3,positive,2,0,1,Rosenblatt lifts RingCentral target to 105 after strong Q3 and AI ARR
+2026-10-26-GRC-c,NYSE:GRC,2026-10-26T12:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-26-WMB-c,NYSE:WMB,2026-10-26T14:30:00-04:00,tradingview,1,neutral,0,0,1,Q3 earnings preview: revenue estimate about 3.0B dollars
+2026-10-27-RDNT-c,NASDAQ:RDNT,2026-10-27T09:30:00-04:00,tradingview,10,positive,1,0,9,RadNet agrees to buy ONRAD for 350M cash plus shares
+2026-10-27-KNSA-c,NASDAQ:KNSA,2026-10-27T09:30:00-04:00,tradingview,18,positive,9,0,9,Q3 beat: ARCALYST revenue up 58 percent and full-year guidance raised
+2026-10-27-CNC-c,NYSE:CNC,2026-10-27T09:30:00-04:00,tradingview,35,positive,14,3,18,Centene beats Q3 and lifts 2026 EPS guidance; membership still shrinking
+2026-10-27-SXC-c,NYSE:SXC,2026-10-27T09:30:00-04:00,tradingview,10,positive,4,0,6,SunCoke Q3 EBITDA up 30 percent and full-year guidance raised
+2026-10-27-UTZ-c,NYSE:UTZ,2026-10-27T10:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-27-HPE-c,NYSE:HPE,2026-10-27T11:30:00-04:00,tradingview,6,positive,1,0,5,HPE shares gain 4 percent on mixed-GPU private AI expansion
+2026-10-27-MRVI-c,NASDAQ:MRVI,2026-10-27T11:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-27-SFL-c,NYSE:SFL,2026-10-27T12:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-27-NP-c,NYSE:NP,2026-10-27T12:30:00-04:00,tradingview,1,positive,1,0,0,Neptune listed among financials with strong revenue growth and cheap valuation
+2026-10-27-CBZ-c,NYSE:CBZ,2026-10-27T14:30:00-04:00,tradingview,2,positive,1,0,1,CBIZ stockholders approve Viking merger agreement in preliminary vote
+2026-10-27-PCVX-c,NASDAQ:PCVX,2026-10-27T14:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-28-NEO-c,NASDAQ:NEO,2026-10-28T09:30:00-04:00,tradingview,2,neutral,0,0,2,Earnings preview: NeoGenomics reports Q3 results the next day
+2026-10-28-PRCH-c,NASDAQ:PRCH,2026-10-28T10:30:00-04:00,tradingview,2,positive,1,0,1,Porch named on Oppenheimer top 50 small and mid-cap buy list
+2026-10-29-PRCH-c,NASDAQ:PRCH,2026-10-29T09:30:00-04:00,tradingview,15,positive,8,0,7,Porch Q3 beat; adjusted EBITDA more than doubles and FY outlook raised
+2026-10-28-LIND-c,NASDAQ:LIND,2026-10-28T11:30:00-04:00,tradingview,1,neutral,0,0,1,Q3 earnings preview: revenue estimate about 264M dollars
+2026-10-28-LB-c,NYSE:LB,2026-10-28T12:30:00-04:00,tradingview,1,neutral,0,0,1,Q3 earnings preview: revenue estimate about 66M dollars
+2026-10-28-ECO-c,NYSE:ECO,2026-10-28T12:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-28-NSP-c,NYSE:NSP,2026-10-28T13:30:00-04:00,tradingview,2,neutral,0,0,2,Earnings preview ahead of Insperity Q3 report
+2026-10-28-ALNT-c,NASDAQ:ALNT,2026-10-28T14:30:00-04:00,tradingview,1,neutral,0,0,1,Q3 earnings preview: revenue estimate about 155M dollars
+2026-10-29-PAYS-c,NASDAQ:PAYS,2026-10-28T15:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-29-PBF-c,NYSE:PBF,2026-10-29T09:30:00-04:00,tradingview,14,positive,5,0,9,PBF record Q3 beats on refining margins; dividend raised 18 percent
+2026-10-29-MO-c,NYSE:MO,2026-10-29T09:30:00-04:00,tradingview,26,positive,12,0,14,Altria Q3 beat; raises 2026 EPS guidance and adds 1B to buyback
+2026-10-29-MGNI-c,NASDAQ:MGNI,2026-10-29T12:30:00-04:00,tradingview,3,positive,1,0,2,Comscore Proximic expands integration across Magnite CTV ecosystem
