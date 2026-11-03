@@ -242,3 +242,7 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-10-29-PBF-c,NYSE:PBF,2026-10-29T09:30:00-04:00,tradingview,14,positive,5,0,9,PBF record Q3 beats on refining margins; dividend raised 18 percent
 2026-10-29-MO-c,NYSE:MO,2026-10-29T09:30:00-04:00,tradingview,26,positive,12,0,14,Altria Q3 beat; raises 2026 EPS guidance and adds 1B to buyback
 2026-10-29-MGNI-c,NASDAQ:MGNI,2026-10-29T12:30:00-04:00,tradingview,3,positive,1,0,2,Comscore Proximic expands integration across Magnite CTV ecosystem
+2026-11-02-PSNL-c,NASDAQ:PSNL,2026-10-30T15:30:00-04:00,massive,0,none,0,0,0,
+2026-11-02-NP-c,NYSE:NP,2026-10-30T15:30:00-04:00,massive,0,none,0,0,0,
+2026-11-02-HPQ-c,NYSE:HPQ,2026-10-30T15:30:00-04:00,massive,2,positive,1,0,1,Apple's Q4 Earnings Loom: Buy or Sell AAPL Stock Ahead of Results?
+2026-11-02-RDNT-c,NASDAQ:RDNT,2026-11-02T09:30:00-05:00,massive,1,negative,0,1,0,RadNet (RDNT) Reports Next Week: Wall Street Expects Earnings Growth
