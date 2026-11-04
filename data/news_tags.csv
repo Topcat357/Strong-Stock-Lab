@@ -246,3 +246,13 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-11-02-NP-c,NYSE:NP,2026-10-30T15:30:00-04:00,massive,0,none,0,0,0,
 2026-11-02-HPQ-c,NYSE:HPQ,2026-10-30T15:30:00-04:00,massive,2,positive,1,0,1,Apple's Q4 Earnings Loom: Buy or Sell AAPL Stock Ahead of Results?
 2026-11-02-RDNT-c,NASDAQ:RDNT,2026-11-02T09:30:00-05:00,massive,1,negative,0,1,0,RadNet (RDNT) Reports Next Week: Wall Street Expects Earnings Growth
+2026-11-03-DT-c,NYSE:DT,2026-11-03T11:30:00-05:00,massive,1,positive,1,0,0,Dynatrace (DT) Q2 Earnings and Revenues Surpass Estimates
+2026-11-03-PD-c,NYSE:PD,2026-11-03T10:30:00-05:00,massive,0,none,0,0,0,
+2026-11-03-RSKD-c,NYSE:RSKD,2026-11-03T10:30:00-05:00,massive,0,none,0,0,0,
+2026-11-03-SUN-c,AMEX:SUN,2026-11-03T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-03-ATRC-c,NASDAQ:ATRC,2026-11-03T10:30:00-05:00,massive,0,none,0,0,0,
+2026-11-03-XMTR-c,NASDAQ:XMTR,2026-11-03T11:30:00-05:00,massive,1,positive,1,0,0,Xometry (XMTR) Q3 Earnings and Revenues Surpass Estimates
+2026-11-03-SIBN-c,NASDAQ:SIBN,2026-11-03T09:30:00-05:00,massive,1,neutral,0,0,1,"Si-Bone (SIBN) Reports Q3 Loss, Tops Revenue Estimates"
+2026-11-03-LTH-c,NYSE:LTH,2026-11-03T10:30:00-05:00,massive,0,none,0,0,0,
+2026-11-03-AUPH-c,NASDAQ:AUPH,2026-11-03T11:30:00-05:00,massive,0,none,0,0,0,
+2026-11-03-ZIM-c,NYSE:ZIM,2026-11-03T11:30:00-05:00,massive,1,positive,1,0,0,5 Stocks Favored by Brokers Amid the Prevalent Market Turbulence
