@@ -256,3 +256,20 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-11-03-LTH-c,NYSE:LTH,2026-11-03T10:30:00-05:00,massive,0,none,0,0,0,
 2026-11-03-AUPH-c,NASDAQ:AUPH,2026-11-03T11:30:00-05:00,massive,0,none,0,0,0,
 2026-11-03-ZIM-c,NYSE:ZIM,2026-11-03T11:30:00-05:00,massive,1,positive,1,0,0,5 Stocks Favored by Brokers Amid the Prevalent Market Turbulence
+2026-11-04-MRVI-c,NASDAQ:MRVI,2026-11-04T12:30:00-05:00,massive,0,none,0,0,0,
+2026-11-04-ADPT-c,NASDAQ:ADPT,2026-11-04T14:30:00-05:00,massive,0,none,0,0,0,
+2026-11-04-S-c,NYSE:S,2026-11-04T12:30:00-05:00,massive,2,positive,2,0,0,C3.ai vs. SentinelOne: Falling Revenue vs. Steady Sales Growth
+2026-11-04-AMPL-c,NASDAQ:AMPL,2026-11-04T11:30:00-05:00,massive,0,none,0,0,0,
+2026-11-04-ESTC-c,NYSE:ESTC,2026-11-04T14:30:00-05:00,massive,0,none,0,0,0,
+2026-11-04-HTFL-c,NASDAQ:HTFL,2026-11-04T12:30:00-05:00,massive,0,none,0,0,0,
+2026-11-04-SEPN-c,NASDAQ:SEPN,2026-11-04T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-04-FRSH-c,NASDAQ:FRSH,2026-11-04T13:30:00-05:00,massive,1,neutral,0,0,1,Freshworks Inc. (FRSH) Beats Q3 Earnings and Revenue Estimates
+2026-11-04-AMRX-c,NASDAQ:AMRX,2026-11-04T11:30:00-05:00,massive,3,positive,3,0,0,"AMRX Q3 Earnings & Sales Beat Estimates, FY'26 Guidance Raised"
+2026-11-04-OLLI-c,NASDAQ:OLLI,2026-11-04T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-04-VNO-c,NYSE:VNO,2026-11-04T11:30:00-05:00,massive,2,neutral,0,0,2,Here's What Key Metrics Tell Us About Vornado (VNO) Q3 Earnings
+2026-11-04-RDVT-c,NASDAQ:RDVT,2026-11-04T14:30:00-05:00,massive,0,none,0,0,0,
+2026-11-04-LIND-c,NASDAQ:LIND,2026-11-04T11:30:00-05:00,massive,1,positive,1,0,0,Lindblad Expeditions (LIND) Lags Q3 Earnings Estimates
+2026-11-04-AVAH-c,NASDAQ:AVAH,2026-11-04T11:30:00-05:00,massive,0,none,0,0,0,
+2026-11-04-DOCU-c,NASDAQ:DOCU,2026-11-04T09:30:00-05:00,massive,2,positive,1,0,1,The Electronic Signatures Market is one of the Smallest Industries for Investmen
+2026-11-04-BXP-c,NYSE:BXP,2026-11-04T10:30:00-05:00,massive,2,positive,2,0,0,"Healthpeak's Q3 FFOA Beat Estimates on Leasing, Senior Housing Growth"
+2026-11-04-PAY-c,NYSE:PAY,2026-11-04T09:30:00-05:00,massive,2,positive,2,0,0,Paymentus: 3 Key Takeaways for Long-Term Investors
