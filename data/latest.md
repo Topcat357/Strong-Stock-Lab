@@ -2,29 +2,7 @@
 
 Light for 2026-11-05: **YELLOW** (SPY not above a rising 50/200 stack).
 
-New signals: 17 · Open shadow trades: 12 · Closed so far: 144 · Setups waiting: 37
-
-## New signals
-
-| Symbol | Group | Entry | Action |
-|---|---|---|---|
-| MRVI | cohort | 7.78 | take_half |
-| ADPT | cohort | 26.86 | skip |
-| S | cohort | 23.33 | skip |
-| AMPL | cohort | 17.37 | take_half |
-| ESTC | cohort | 90.39 | take_half |
-| HTFL | cohort | 56.30 | skip |
-| SEPN | cohort | 45.94 | skip |
-| FRSH | cohort | 13.38 | skip |
-| AMRX | cohort | 19.92 | skip |
-| OLLI | control | 93.24 | control |
-| VNO | control | 35.34 | control |
-| RDVT | cohort | 80.18 | take_half |
-| LIND | cohort | 32.08 | take_half |
-| AVAH | cohort | 14.23 | skip |
-| DOCU | cohort | 83.29 | skip |
-| BXP | control | 64.91 | control |
-| PAY | control | 33.08 | control |
+New signals: 0 · Open shadow trades: 12 · Closed so far: 144 · Setups waiting: 37
 
 ## Setups waiting for an hourly trigger
 
