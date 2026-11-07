@@ -273,3 +273,25 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-11-04-DOCU-c,NASDAQ:DOCU,2026-11-04T09:30:00-05:00,massive,2,positive,1,0,1,The Electronic Signatures Market is one of the Smallest Industries for Investmen
 2026-11-04-BXP-c,NYSE:BXP,2026-11-04T10:30:00-05:00,massive,2,positive,2,0,0,"Healthpeak's Q3 FFOA Beat Estimates on Leasing, Senior Housing Growth"
 2026-11-04-PAY-c,NYSE:PAY,2026-11-04T09:30:00-05:00,massive,2,positive,2,0,0,Paymentus: 3 Key Takeaways for Long-Term Investors
+2026-11-05-CVI-c,NYSE:CVI,2026-11-04T15:30:00-05:00,massive,3,positive,2,0,1,MPC Q3 Earnings Call Highlights Refining Strength and Asset Sales
+2026-11-05-PBF-c,NYSE:PBF,2026-11-04T15:30:00-05:00,massive,1,positive,1,0,0,"Valero to Acquire Houston Refining Site, Plans 165,000 BPD Restart"
+2026-11-05-SDGR-c,NASDAQ:SDGR,2026-11-05T09:30:00-05:00,massive,1,positive,1,0,0,"Schrodinger, Inc. (SDGR) Reports Q3 Loss, Beats Revenue Estimates"
+2026-11-05-XERS-c,NASDAQ:XERS,2026-11-05T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-05-NE-c,NYSE:NE,2026-11-05T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-05-ACT-c,NASDAQ:ACT,2026-11-05T09:30:00-05:00,massive,1,neutral,0,0,1,"Enact Holdings, Inc. (ACT) Lags Q3 Earnings Estimates"
+2026-11-05-VSAT-c,NASDAQ:VSAT,2026-11-05T13:30:00-05:00,massive,1,neutral,0,0,1,Can ASTS' Handoff Test With AT&T Strengthen Its Growth Prospects?
+2026-11-05-CYRX-c,NASDAQ:CYRX,2026-11-05T13:30:00-05:00,massive,1,neutral,0,0,1,Cencora (COR) Surpasses Q4 Earnings and Revenue Estimates
+2026-11-05-OUST-c,NASDAQ:OUST,2026-11-05T13:30:00-05:00,massive,2,positive,2,0,0,OUST Q3 Earnings Call Highlights REV8 Demand and Robotics Growth
+2026-11-06-FIVN-c,NASDAQ:FIVN,2026-11-06T11:30:00-05:00,massive,2,positive,1,0,1,"FIVN Q3 Earnings & Revenues Surpass Estimates, Both Increase Y/Y"
+2026-11-06-AUPH-c,NASDAQ:AUPH,2026-11-06T12:30:00-05:00,massive,0,none,0,0,0,
+2026-11-06-CFG-c,NYSE:CFG,2026-11-06T14:30:00-05:00,massive,0,none,0,0,0,
+2026-11-06-PSNL-c,NASDAQ:PSNL,2026-11-06T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-06-AMPL-c,NASDAQ:AMPL,2026-11-06T13:30:00-05:00,massive,1,neutral,0,0,1,"Amplitude, Inc. (AMPL) Surpasses Q3 Earnings and Revenue Estimates"
+2026-11-06-ETON-c,NASDAQ:ETON,2026-11-06T12:30:00-05:00,massive,2,positive,2,0,0,Eton Q3 Earnings Call Highlights Growth and Pipeline Expansion
+2026-11-06-ESTC-c,NYSE:ESTC,2026-11-06T11:30:00-05:00,massive,0,none,0,0,0,
+2026-11-06-FROG-c,NASDAQ:FROG,2026-11-06T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-06-CAI-c,NASDAQ:CAI,2026-11-06T14:30:00-05:00,massive,1,positive,1,0,0,"Caris Life Sciences,?Inc. (CAI) Q3 Earnings and Revenues Top Estimates"
+2026-11-06-CVI-c,NYSE:CVI,2026-11-06T14:30:00-05:00,massive,1,neutral,0,0,1,Can MPC's Gulf Coast Focus Fuel Stronger Future Refining Returns?
+2026-11-06-LFST-c,NASDAQ:LFST,2026-11-06T10:30:00-05:00,massive,2,positive,2,0,0,LifeStance Health Group (LFST) Tops Q3 Earnings and Revenue Estimates
+2026-11-06-S-c,NYSE:S,2026-11-06T13:30:00-05:00,massive,1,neutral,0,0,1,SentinelOne (S) Dips More Than Broader Market: What You Should Know
+2026-11-06-AMRX-c,NASDAQ:AMRX,2026-11-06T12:30:00-05:00,massive,4,positive,4,0,0,"Agenus' Q3 Earnings Match Estimates, Revenues Miss Mark, Stock Down"
