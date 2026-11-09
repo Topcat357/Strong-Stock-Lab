@@ -295,3 +295,43 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-11-06-LFST-c,NASDAQ:LFST,2026-11-06T10:30:00-05:00,massive,2,positive,2,0,0,LifeStance Health Group (LFST) Tops Q3 Earnings and Revenue Estimates
 2026-11-06-S-c,NYSE:S,2026-11-06T13:30:00-05:00,massive,1,neutral,0,0,1,SentinelOne (S) Dips More Than Broader Market: What You Should Know
 2026-11-06-AMRX-c,NASDAQ:AMRX,2026-11-06T12:30:00-05:00,massive,4,positive,4,0,0,"Agenus' Q3 Earnings Match Estimates, Revenues Miss Mark, Stock Down"
+2026-10-30-CWT-c,NYSE:CWT,2026-10-29T15:30:00-04:00,tradingview,15,neutral,5,2,8,Q3 revenue up on rate hikes but EPS below estimate; equity sale
+2026-10-30-CNC-c,NYSE:CNC,2026-10-29T15:30:00-04:00,tradingview,10,positive,6,0,4,Multiple analysts raise Centene price targets after Q3 beat and guidance lift
+2026-10-30-DK-c,NYSE:DK,2026-10-30T09:30:00-04:00,tradingview,7,positive,4,0,3,Delek US raises quarterly dividend 18 percent to 30 cents per share
+2026-10-30-NSP-c,NYSE:NSP,2026-10-30T10:30:00-04:00,tradingview,20,positive,9,1,10,"Insperity Q3 beats on EPS and sales, adjusted EBITDA up 210 percent, FY guide raised"
+2026-10-30-KBR-c,NYSE:KBR,2026-10-30T11:30:00-04:00,tradingview,22,positive,6,1,15,"KBR Q3 adjusted EPS beats estimates, FY26 guidance reaffirmed despite sales miss"
+2026-10-30-VSXY-c,NYSE:VSXY,2026-10-30T12:30:00-04:00,tradingview,0,none,0,0,0,
+2026-10-30-AMTB-c,NYSE:AMTB,2026-10-30T14:30:00-04:00,tradingview,0,none,0,0,0,
+2026-11-02-PSNL-c,NASDAQ:PSNL,2026-10-30T15:30:00-04:00,tradingview,0,none,0,0,0,
+2026-11-02-NP-c,NYSE:NP,2026-10-30T15:30:00-04:00,tradingview,0,none,0,0,0,
+2026-11-02-HPQ-c,NYSE:HPQ,2026-10-30T15:30:00-04:00,tradingview,3,negative,0,2,1,HP shares plunge after Intel flags prolonged PC market weakness
+2026-11-02-RDNT-c,NASDAQ:RDNT,2026-11-02T09:30:00-05:00,tradingview,1,neutral,0,0,1,Weekly recap of RadNet ONRAD acquisition and upcoming Q3 results call
+2026-11-03-SUN-c,AMEX:SUN,2026-11-03T09:30:00-05:00,tradingview,2,neutral,0,0,2,Sunoco reports Q3 EPS of 2.07 dollars on revenue of 18.03 billion
+2026-11-03-SIBN-c,NASDAQ:SIBN,2026-11-03T09:30:00-05:00,tradingview,17,positive,8,1,8,"SI-BONE Q3 revenue up 14.5 percent, beats estimates, iFuse gets FDA clearance"
+2026-11-03-PD-c,NYSE:PD,2026-11-03T10:30:00-05:00,tradingview,2,positive,2,0,0,PagerDuty unveils Paige SRE agent and PD Reliability Platform
+2026-11-03-RSKD-c,NYSE:RSKD,2026-11-03T10:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-03-ATRC-c,NASDAQ:ATRC,2026-11-03T10:30:00-05:00,tradingview,2,positive,1,0,1,AtriCure slides show Q3 revenue up 15% with FY26 guide of 606M to 610M
+2026-11-03-LTH-c,NYSE:LTH,2026-11-03T10:30:00-05:00,tradingview,2,positive,1,0,1,"Life Time weekly recap: Q3 growth, higher guidance, raised price targets"
+2026-11-03-DT-c,NYSE:DT,2026-11-03T11:30:00-05:00,tradingview,25,neutral,11,3,11,"Dynatrace beats Q2 and adds 1B buyback but cuts FY27 EPS view, shares slide"
+2026-11-03-XMTR-c,NASDAQ:XMTR,2026-11-03T11:30:00-05:00,tradingview,17,positive,8,0,9,Xometry beats Q3 estimates and raises 2026 revenue growth view to 37 pct plus
+2026-11-03-AUPH-c,NASDAQ:AUPH,2026-11-03T11:30:00-05:00,tradingview,3,positive,3,0,0,"RBC raises Aurinia price target to 18 from 16, keeps Sector Perform"
+2026-11-03-ZIM-c,NYSE:ZIM,2026-11-03T11:30:00-05:00,tradingview,2,neutral,0,0,2,ZIM sets Q3 2026 results release for November 18
+2026-11-04-SEPN-c,NASDAQ:SEPN,2026-11-04T09:30:00-05:00,tradingview,4,positive,3,0,1,"Septerna picks SEP-204 for Graves disease and TED, Phase 1 planned Q1 2027"
+2026-11-04-OLLI-c,NASDAQ:OLLI,2026-11-04T09:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-04-DOCU-c,NASDAQ:DOCU,2026-11-04T09:30:00-05:00,tradingview,7,positive,6,0,1,Docusign acquires Suplari to boost AI contract management for procurement
+2026-11-04-PAY-c,NYSE:PAY,2026-11-04T09:30:00-05:00,tradingview,20,positive,11,0,9,"Paymentus Q3 revenue beats on volume growth, raises FY26 guidance"
+2026-11-04-BXP-c,NYSE:BXP,2026-11-04T10:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-04-AMPL-c,NASDAQ:AMPL,2026-11-04T11:30:00-05:00,tradingview,5,positive,2,0,3,"Amplitude revenue and ARR accelerate with record profitability, FY guide raised"
+2026-11-04-AMRX-c,NASDAQ:AMRX,2026-11-04T11:30:00-05:00,tradingview,19,positive,10,0,9,"Amneal Q3 sales and EPS beat estimates, FY26 guidance raised"
+2026-11-04-VNO-c,NYSE:VNO,2026-11-04T11:30:00-05:00,tradingview,13,neutral,3,0,10,Vornado Q3 adjusted FFO rises 14% on rent commencements despite GAAP loss
+2026-11-04-LIND-c,NASDAQ:LIND,2026-11-04T11:30:00-05:00,tradingview,18,positive,8,1,9,"Lindblad posts record Q3 earnings, beats estimates and lifts guidance"
+2026-11-04-AVAH-c,NASDAQ:AVAH,2026-11-04T11:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-04-MRVI-c,NASDAQ:MRVI,2026-11-04T12:30:00-05:00,tradingview,1,neutral,0,0,1,Maravai Q3 earnings preview: consensus EPS estimate of a 6 cent loss
+2026-11-04-S-c,NYSE:S,2026-11-04T12:30:00-05:00,tradingview,2,neutral,0,0,2,SentinelOne extends AI runtime security coverage to Claude Cowork
+2026-11-04-HTFL-c,NASDAQ:HTFL,2026-11-04T12:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-04-FRSH-c,NASDAQ:FRSH,2026-11-04T13:30:00-05:00,tradingview,28,positive,13,0,15,"Freshworks posts record Q3, adj profit beats, analysts raise price targets"
+2026-11-04-ADPT-c,NASDAQ:ADPT,2026-11-04T14:30:00-05:00,tradingview,1,neutral,0,0,1,Adaptive Biotechnologies Q3 preview: consensus EPS estimate a 9 cent loss
+2026-11-04-ESTC-c,NYSE:ESTC,2026-11-04T14:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-04-RDVT-c,NASDAQ:RDVT,2026-11-04T14:30:00-05:00,tradingview,1,neutral,0,0,1,Red Violet Q3 earnings preview: consensus EPS estimate 41 cents
+2026-11-05-CVI-c,NYSE:CVI,2026-11-04T15:30:00-05:00,tradingview,57,positive,21,7,29,"CVR Energy beats Q3, buys two Marathon refineries for 4.2B, funds via stock sale"
+2026-11-05-PBF-c,NYSE:PBF,2026-11-04T15:30:00-05:00,tradingview,2,positive,2,0,0,"Freedom Broker upgrades PBF Energy to Hold from Sell, lifts target to 63"
