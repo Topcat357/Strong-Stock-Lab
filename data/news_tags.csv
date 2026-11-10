@@ -335,3 +335,13 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-11-04-RDVT-c,NASDAQ:RDVT,2026-11-04T14:30:00-05:00,tradingview,1,neutral,0,0,1,Red Violet Q3 earnings preview: consensus EPS estimate 41 cents
 2026-11-05-CVI-c,NYSE:CVI,2026-11-04T15:30:00-05:00,tradingview,57,positive,21,7,29,"CVR Energy beats Q3, buys two Marathon refineries for 4.2B, funds via stock sale"
 2026-11-05-PBF-c,NYSE:PBF,2026-11-04T15:30:00-05:00,tradingview,2,positive,2,0,0,"Freedom Broker upgrades PBF Energy to Hold from Sell, lifts target to 63"
+2026-11-09-VRNS-c,NASDAQ:VRNS,2026-11-06T15:30:00-05:00,massive,0,none,0,0,0,
+2026-11-09-SDGR-c,NASDAQ:SDGR,2026-11-09T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-09-ADPT-c,NASDAQ:ADPT,2026-11-09T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-09-LKFN-c,NASDAQ:LKFN,2026-11-09T11:30:00-05:00,massive,0,none,0,0,0,
+2026-11-09-AMN-c,NYSE:AMN,2026-11-09T12:30:00-05:00,massive,1,positive,1,0,0,AMN Healthcare (AMN) Upgraded to Buy: What Does It Mean for the Stock?
+2026-11-09-TGTX-c,NASDAQ:TGTX,2026-11-09T12:30:00-05:00,massive,1,positive,1,0,0,TG Therapeutics (TGTX) Beats Q3 Earnings and Revenue Estimates
+2026-11-09-BLMN-c,NASDAQ:BLMN,2026-11-09T10:30:00-05:00,massive,1,neutral,0,0,1,BLMN Q3 Earnings Call Highlights Outback Turnaround and Pricing Caution
+2026-11-09-OUST-c,NASDAQ:OUST,2026-11-09T14:30:00-05:00,massive,0,none,0,0,0,
+2026-11-09-APPS-c,NASDAQ:APPS,2026-11-09T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-09-VNO-c,NYSE:VNO,2026-11-09T09:30:00-05:00,massive,0,none,0,0,0,
