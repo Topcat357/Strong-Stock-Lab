@@ -345,3 +345,9 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-11-09-OUST-c,NASDAQ:OUST,2026-11-09T14:30:00-05:00,massive,0,none,0,0,0,
 2026-11-09-APPS-c,NASDAQ:APPS,2026-11-09T09:30:00-05:00,massive,0,none,0,0,0,
 2026-11-09-VNO-c,NYSE:VNO,2026-11-09T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-10-SW-c,NYSE:SW,2026-11-10T12:30:00-05:00,massive,1,positive,1,0,0,Smurfit Westrock: 3 Key Takeaways for Long-Term Investors
+2026-11-10-PRCH-c,NASDAQ:PRCH,2026-11-10T12:30:00-05:00,massive,0,none,0,0,0,
+2026-11-10-BOX-c,NYSE:BOX,2026-11-10T10:30:00-05:00,massive,0,none,0,0,0,
+2026-11-10-ZETA-c,NYSE:ZETA,2026-11-10T09:30:00-05:00,massive,2,positive,2,0,0,ZETA Q3 Earnings Call Highlights AI Growth and Higher Outlook
+2026-11-10-BHVN-c,NYSE:BHVN,2026-11-10T12:30:00-05:00,massive,0,none,0,0,0,
+2026-11-10-UNFI-c,NYSE:UNFI,2026-11-10T11:30:00-05:00,massive,1,positive,1,0,0,Here's Why United Natural Foods (UNFI) is a Strong Momentum Stock

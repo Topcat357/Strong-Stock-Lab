@@ -22,3 +22,4 @@ date,spy_close,spy_sma50,spy_sma200,vix,breadth_pct,next_session,event_next,ligh
 2026-11-05,733,766.396,730.151,28.18,,2026-11-06,Jobs report,red,VIX 28.2; event: Jobs report,v1
 2026-11-06,735.29,765.68,730.383,25.64,61.3546,2026-11-09,,yellow,SPY not above a rising 50/200 stack; VIX 25.6,v1
 2026-11-09,752.69,765.347,730.7,19.92,69.1235,2026-11-10,CPI,red,event: CPI,v1
+2026-11-10,749.92,765.004,730.986,19.46,68.9243,2026-11-11,,yellow,SPY not above a rising 50/200 stack,v1
