@@ -2,18 +2,7 @@
 
 Light for 2026-11-11: **YELLOW** (SPY not above a rising 50/200 stack).
 
-New signals: 6 · Open shadow trades: 9 · Closed so far: 185 · Setups waiting: 42
-
-## New signals
-
-| Symbol | Group | Entry | Action |
-|---|---|---|---|
-| SW | control | 44.18 | control |
-| PRCH | cohort | 21.89 | log_only |
-| BOX | cohort | 42.20 | log_only |
-| ZETA | cohort | 34.58 | log_only |
-| BHVN | control | 14.75 | control |
-| UNFI | control | 47.75 | control |
+New signals: 0 · Open shadow trades: 9 · Closed so far: 185 · Setups waiting: 42
 
 ## Setups waiting for an hourly trigger
 

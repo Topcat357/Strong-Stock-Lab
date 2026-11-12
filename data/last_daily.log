@@ -1,7 +1,3 @@
-[19:46:32] Processing: ['2026-11-10']
-
-1 Failed download:
-['DOCU']: OperationalError('database is locked')
-[19:46:42] Bars: 139 daily, 137 hourly
-[19:46:43] 2026-11-10: light yellow, 12 new setups, 9 open trades
-[19:48:02] News tags: 6 of 6 signals from Massive
+[20:57:59] Processing: ['2026-11-11']
+[20:58:08] Bars: 132 daily, 130 hourly
+[20:58:09] No bars yet for 2026-11-11; stopping here.
