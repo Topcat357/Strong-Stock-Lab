@@ -24,3 +24,5 @@ date,spy_close,spy_sma50,spy_sma200,vix,breadth_pct,next_session,event_next,ligh
 2026-11-09,752.69,765.347,730.7,19.92,69.1235,2026-11-10,CPI,red,event: CPI,v1
 2026-11-10,749.92,765.004,730.986,19.46,68.9243,2026-11-11,,yellow,SPY not above a rising 50/200 stack,v1
 2026-11-11,759.81,764.965,731.307,17.49,,2026-11-12,,yellow,SPY not above a rising 50/200 stack,v1
+2026-11-12,757.12,764.804,731.616,18.7,,2026-11-13,,yellow,SPY not above a rising 50/200 stack,v1
+2026-11-13,754.37,764.428,731.918,19.3,71.31474103585657,2026-11-16,,yellow,SPY not above a rising 50/200 stack,v1
