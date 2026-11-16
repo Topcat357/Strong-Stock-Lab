@@ -369,3 +369,43 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-11-13-PD-c,NYSE:PD,2026-11-13T12:30:00-05:00,massive,0,none,0,0,0,
 2026-11-13-NIQ-c,NYSE:NIQ,2026-11-13T13:30:00-05:00,massive,1,positive,1,0,0,NIQ Global Intelligence plc (NIQ) Q3 Earnings and Revenues Surpass Estimates
 2026-11-13-VG-c,NYSE:VG,2026-11-13T13:30:00-05:00,massive,4,positive,4,0,0,Surging Earnings Estimates Signal Upside for Venture Global (VG) Stock
+2026-11-05-ACT-c,NASDAQ:ACT,2026-11-05T09:30:00-05:00,tradingview,14,neutral,3,2,9,Q3 revenue missed but capital return guidance raised to about $600M
+2026-11-05-NE-c,NYSE:NE,2026-11-05T09:30:00-05:00,tradingview,2,neutral,0,0,2,Noble promotes Joey Kawaja to EVP and COO
+2026-11-05-SDGR-c,NASDAQ:SDGR,2026-11-05T09:30:00-05:00,tradingview,16,positive,8,0,8,Q3 revenue beat and FY26 guidance raised; Novartis deal expanded
+2026-11-09-SDGR-c,NASDAQ:SDGR,2026-11-09T09:30:00-05:00,tradingview,1,positive,1,0,0,"Weekly recap: Q3 revenue up 19%, outlook lifted, deals expanded"
+2026-11-05-XERS-c,NASDAQ:XERS,2026-11-05T09:30:00-05:00,tradingview,13,positive,7,0,6,Q3 revenue up 44% and beat; 2026 revenue guidance raised
+2026-11-05-CYRX-c,NASDAQ:CYRX,2026-11-05T13:30:00-05:00,tradingview,2,positive,1,0,1,Summary says revenue grew 14% and FY2026 guidance raised
+2026-11-05-OUST-c,NASDAQ:OUST,2026-11-05T13:30:00-05:00,tradingview,15,positive,8,1,6,Record Q3 revenue up 50% and two analyst upgrades
+2026-11-09-OUST-c,NASDAQ:OUST,2026-11-09T14:30:00-05:00,tradingview,1,positive,1,0,0,Weekly recap: record Q3 revenue and new edge AI product launch
+2026-11-05-VSAT-c,NASDAQ:VSAT,2026-11-05T13:30:00-05:00,tradingview,4,neutral,1,0,3,Earnings preview pieces and a stock-price-linked incentive plan
+2026-11-06-FROG-c,NASDAQ:FROG,2026-11-06T09:30:00-05:00,tradingview,19,positive,9,1,9,Q3 revenue up 31% and beat; full-year guidance raised
+2026-11-06-PSNL-c,NASDAQ:PSNL,2026-11-06T09:30:00-05:00,tradingview,12,neutral,2,0,10,Q3 revenue beat; outlook suspended pending Tempus AI merger
+2026-11-06-LFST-c,NASDAQ:LFST,2026-11-06T10:30:00-05:00,tradingview,21,positive,14,0,7,Q3 revenue beat and full-year outlook raised; price targets lifted
+2026-11-06-ESTC-c,NYSE:ESTC,2026-11-06T11:30:00-05:00,tradingview,1,neutral,0,0,1,Elastic sets November 19 date for quarterly results
+2026-11-06-FIVN-c,NASDAQ:FIVN,2026-11-06T11:30:00-05:00,tradingview,32,negative,9,6,17,Revenue beat but 2026 profit outlook cut; Evercore downgrade
+2026-11-06-AMRX-c,NASDAQ:AMRX,2026-11-06T12:30:00-05:00,tradingview,4,positive,3,0,1,Leerink and JP Morgan raise price targets after strong Q3
+2026-11-06-AUPH-c,NASDAQ:AUPH,2026-11-06T12:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-06-ETON-c,NASDAQ:ETON,2026-11-06T12:30:00-05:00,tradingview,23,positive,11,0,12,Q3 revenue up 158% and 2026 guidance raised; price targets lifted
+2026-11-06-AMPL-c,NASDAQ:AMPL,2026-11-06T13:30:00-05:00,tradingview,26,positive,17,1,8,Q3 revenue up 25% and beat; outlook raised and many price target hikes
+2026-11-06-S-c,NYSE:S,2026-11-06T13:30:00-05:00,tradingview,2,positive,1,0,1,SentinelOne wins Cloudflare technology partner of the year award
+2026-11-06-CAI-c,NASDAQ:CAI,2026-11-06T14:30:00-05:00,tradingview,17,positive,8,0,9,Q3 revenue up 27% and 2026 revenue guidance raised
+2026-11-06-CFG-c,NYSE:CFG,2026-11-06T14:30:00-05:00,tradingview,2,positive,2,0,0,Citizens reaffirms 18% return target as private bank and deal pipeline grow
+2026-11-06-CVI-c,NYSE:CVI,2026-11-06T14:30:00-05:00,tradingview,2,negative,0,1,1,Raised $490M in a stock offering to fund a refinery purchase
+2026-11-09-VRNS-c,NASDAQ:VRNS,2026-11-06T15:30:00-05:00,tradingview,3,negative,0,2,1,Susquehanna downgrades Varonis to neutral amid pending $49.75 buyout
+2026-11-09-ADPT-c,NASDAQ:ADPT,2026-11-09T09:30:00-05:00,tradingview,1,positive,1,0,0,"Weekly recap: raised MRD revenue guidance, seeking Medicare coverage"
+2026-11-09-APPS-c,NASDAQ:APPS,2026-11-09T09:30:00-05:00,tradingview,1,neutral,0,0,1,Mentioned in a quant-ratings roundup ahead of earnings
+2026-11-09-VNO-c,NYSE:VNO,2026-11-09T09:30:00-05:00,tradingview,1,positive,1,0,0,Weekly recap: 350 Park Ave secures $3.3B loan; FFO growth outlook
+2026-11-09-BLMN-c,NASDAQ:BLMN,2026-11-09T10:30:00-05:00,tradingview,3,positive,1,0,2,Recap: revenue up and EPS guidance lifted as Outback turnaround advances
+2026-11-09-LKFN-c,NASDAQ:LKFN,2026-11-09T11:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-09-AMN-c,NYSE:AMN,2026-11-09T12:30:00-05:00,tradingview,3,positive,1,0,2,Truist raises AMN price target to $45 after Q3 beat
+2026-11-09-TGTX-c,NASDAQ:TGTX,2026-11-09T12:30:00-05:00,tradingview,12,positive,8,0,4,Q3 topline beat; 2026 revenue guidance raised to about $1B
+2026-11-10-ZETA-c,NYSE:ZETA,2026-11-10T09:30:00-05:00,tradingview,16,positive,11,0,5,"21st straight beat-and-raise quarter: revenue up 46%, 2026 outlook raised"
+2026-11-10-BOX-c,NYSE:BOX,2026-11-10T10:30:00-05:00,tradingview,4,positive,2,0,2,DA Davidson lifts Box target to $60; NVIDIA AI partnership expands
+2026-11-10-UNFI-c,NYSE:UNFI,2026-11-10T11:30:00-05:00,tradingview,1,neutral,0,0,1,UNFI sets December 8 date for first-quarter results
+2026-11-10-BHVN-c,NYSE:BHVN,2026-11-10T12:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-10-PRCH-c,NASDAQ:PRCH,2026-11-10T12:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-10-SW-c,NYSE:SW,2026-11-10T12:30:00-05:00,tradingview,1,negative,0,1,0,Weekly recap: mixed Q3 results and analysts cut price targets
+2026-11-11-STNG-c,NYSE:STNG,2026-11-10T15:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-11-HTFL-c,NASDAQ:HTFL,2026-11-11T09:30:00-05:00,tradingview,1,neutral,0,0,1,Q3 earnings preview: EPS estimate posted ahead of report
+2026-11-11-RSKD-c,NYSE:RSKD,2026-11-11T09:30:00-05:00,tradingview,14,positive,8,0,6,Q3 revenue up 41% and 2026 revenue guidance raised
+2026-11-11-PUBM-c,NASDAQ:PUBM,2026-11-11T10:30:00-05:00,tradingview,22,positive,14,1,7,"Record Q3 beat, new $150M buyback, several price target raises"
