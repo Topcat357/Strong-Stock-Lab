@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T20:19-05:00",
+  "as_of": "2026-11-15T19:16-05:00",
   "news_source_agreement": {
     "signals_with_both": 158,
     "agree": 71
@@ -7,28 +7,28 @@
   "breakdowns": {
     "Screen vs control": {
       "cohort": {
-        "trades": 118,
-        "win_rate_pct": 44.9,
-        "avg_r": -0.1,
-        "avg_win_r": 0.73,
-        "avg_loss_r": -0.78,
-        "avg_ret_pct": -0.33,
-        "avg_spy_ret_pct": -0.43,
+        "trades": 143,
+        "win_rate_pct": 51.0,
+        "avg_r": -0.02,
+        "avg_win_r": 0.71,
+        "avg_loss_r": -0.79,
+        "avg_ret_pct": -0.01,
+        "avg_spy_ret_pct": -0.04,
         "avg_days": 1.8,
         "avg_mfe_r": 0.71,
-        "avg_mae_r": -0.87
+        "avg_mae_r": -0.78
       },
       "control": {
-        "trades": 48,
-        "win_rate_pct": 66.7,
-        "avg_r": 0.19,
-        "avg_win_r": 0.58,
-        "avg_loss_r": -0.6,
-        "avg_ret_pct": 0.77,
-        "avg_spy_ret_pct": -0.3,
-        "avg_days": 1.5,
-        "avg_mfe_r": 0.64,
-        "avg_mae_r": -0.47
+        "trades": 61,
+        "win_rate_pct": 62.3,
+        "avg_r": 0.15,
+        "avg_win_r": 0.56,
+        "avg_loss_r": -0.52,
+        "avg_ret_pct": 0.48,
+        "avg_spy_ret_pct": 0.04,
+        "avg_days": 1.6,
+        "avg_mfe_r": 0.59,
+        "avg_mae_r": -0.44
       }
     },
     "Cohort by light": {
@@ -45,28 +45,28 @@
         "avg_mae_r": -0.47
       },
       "yellow": {
-        "trades": 88,
-        "win_rate_pct": 39.8,
-        "avg_r": -0.14,
-        "avg_win_r": 0.87,
+        "trades": 101,
+        "win_rate_pct": 44.6,
+        "avg_r": -0.1,
+        "avg_win_r": 0.77,
         "avg_loss_r": -0.81,
-        "avg_ret_pct": -0.55,
-        "avg_spy_ret_pct": -0.38,
-        "avg_days": 1.8,
-        "avg_mfe_r": 0.8,
-        "avg_mae_r": -0.94
+        "avg_ret_pct": -0.39,
+        "avg_spy_ret_pct": -0.13,
+        "avg_days": 1.7,
+        "avg_mfe_r": 0.75,
+        "avg_mae_r": -0.86
       },
       "red": {
-        "trades": 11,
-        "win_rate_pct": 63.6,
-        "avg_r": -0.18,
-        "avg_win_r": 0.18,
-        "avg_loss_r": -0.82,
-        "avg_ret_pct": -0.07,
-        "avg_spy_ret_pct": -0.29,
-        "avg_days": 1.3,
-        "avg_mfe_r": 0.3,
-        "avg_mae_r": -0.97
+        "trades": 23,
+        "win_rate_pct": 73.9,
+        "avg_r": 0.21,
+        "avg_win_r": 0.6,
+        "avg_loss_r": -0.88,
+        "avg_ret_pct": 1.22,
+        "avg_spy_ret_pct": 0.97,
+        "avg_days": 1.8,
+        "avg_mfe_r": 0.69,
+        "avg_mae_r": -0.69
       }
     },
     "Cohort by action": {
@@ -83,77 +83,77 @@
         "avg_mae_r": -0.47
       },
       "take_half": {
-        "trades": 30,
-        "win_rate_pct": 33.3,
-        "avg_r": -0.29,
-        "avg_win_r": 0.94,
+        "trades": 33,
+        "win_rate_pct": 36.4,
+        "avg_r": -0.28,
+        "avg_win_r": 0.82,
         "avg_loss_r": -0.9,
-        "avg_ret_pct": -1.15,
-        "avg_spy_ret_pct": -0.59,
-        "avg_days": 1.7,
-        "avg_mfe_r": 0.71,
-        "avg_mae_r": -1.11
+        "avg_ret_pct": -1.09,
+        "avg_spy_ret_pct": -0.44,
+        "avg_days": 1.6,
+        "avg_mfe_r": 0.66,
+        "avg_mae_r": -1.05
       },
       "skip": {
-        "trades": 58,
-        "win_rate_pct": 43.1,
-        "avg_r": -0.07,
-        "avg_win_r": 0.84,
-        "avg_loss_r": -0.76,
-        "avg_ret_pct": -0.24,
-        "avg_spy_ret_pct": -0.27,
+        "trades": 68,
+        "win_rate_pct": 48.5,
+        "avg_r": -0.02,
+        "avg_win_r": 0.75,
+        "avg_loss_r": -0.75,
+        "avg_ret_pct": -0.05,
+        "avg_spy_ret_pct": 0.02,
         "avg_days": 1.8,
-        "avg_mfe_r": 0.85,
-        "avg_mae_r": -0.86
+        "avg_mfe_r": 0.79,
+        "avg_mae_r": -0.76
       },
       "log_only": {
-        "trades": 11,
-        "win_rate_pct": 63.6,
-        "avg_r": -0.18,
-        "avg_win_r": 0.18,
-        "avg_loss_r": -0.82,
-        "avg_ret_pct": -0.07,
-        "avg_spy_ret_pct": -0.29,
-        "avg_days": 1.3,
-        "avg_mfe_r": 0.3,
-        "avg_mae_r": -0.97
+        "trades": 23,
+        "win_rate_pct": 73.9,
+        "avg_r": 0.21,
+        "avg_win_r": 0.6,
+        "avg_loss_r": -0.88,
+        "avg_ret_pct": 1.22,
+        "avg_spy_ret_pct": 0.97,
+        "avg_days": 1.8,
+        "avg_mfe_r": 0.69,
+        "avg_mae_r": -0.69
       }
     },
     "Cohort by exit": {
       "target": {
-        "trades": 10,
+        "trades": 11,
         "win_rate_pct": 100.0,
-        "avg_r": 2.2,
-        "avg_win_r": 2.2,
+        "avg_r": 2.18,
+        "avg_win_r": 2.18,
         "avg_loss_r": null,
-        "avg_ret_pct": 5.08,
-        "avg_spy_ret_pct": -0.11,
-        "avg_days": 2.2,
-        "avg_mfe_r": 3.24,
-        "avg_mae_r": -0.4
+        "avg_ret_pct": 5.03,
+        "avg_spy_ret_pct": 0.12,
+        "avg_days": 2.1,
+        "avg_mfe_r": 3.14,
+        "avg_mae_r": -0.36
       },
       "stop": {
-        "trades": 44,
+        "trades": 48,
         "win_rate_pct": 0.0,
-        "avg_r": -1.08,
+        "avg_r": -1.07,
         "avg_win_r": null,
-        "avg_loss_r": -1.08,
-        "avg_ret_pct": -3.82,
-        "avg_spy_ret_pct": -1.23,
+        "avg_loss_r": -1.07,
+        "avg_ret_pct": -3.95,
+        "avg_spy_ret_pct": -0.97,
         "avg_days": 2.2,
-        "avg_mfe_r": 0.6,
-        "avg_mae_r": -1.95
+        "avg_mfe_r": 0.59,
+        "avg_mae_r": -1.89
       },
       "rsi2_strength": {
-        "trades": 64,
-        "win_rate_pct": 67.2,
-        "avg_r": 0.21,
-        "avg_win_r": 0.39,
-        "avg_loss_r": -0.16,
-        "avg_ret_pct": 1.23,
-        "avg_spy_ret_pct": 0.06,
-        "avg_days": 1.4,
-        "avg_mfe_r": 0.4,
+        "trades": 84,
+        "win_rate_pct": 73.8,
+        "avg_r": 0.29,
+        "avg_win_r": 0.45,
+        "avg_loss_r": -0.15,
+        "avg_ret_pct": 1.59,
+        "avg_spy_ret_pct": 0.47,
+        "avg_days": 1.5,
+        "avg_mfe_r": 0.47,
         "avg_mae_r": -0.2
       },
       "time_stop": {
@@ -162,54 +162,54 @@
     },
     "Cohort by setup type": {
       "rsi2": {
-        "trades": 36,
-        "win_rate_pct": 41.7,
-        "avg_r": -0.09,
-        "avg_win_r": 0.88,
-        "avg_loss_r": -0.79,
-        "avg_ret_pct": -0.11,
-        "avg_spy_ret_pct": -0.47,
-        "avg_days": 1.9,
-        "avg_mfe_r": 0.71,
-        "avg_mae_r": -0.95
+        "trades": 47,
+        "win_rate_pct": 51.1,
+        "avg_r": 0.06,
+        "avg_win_r": 0.89,
+        "avg_loss_r": -0.8,
+        "avg_ret_pct": 0.41,
+        "avg_spy_ret_pct": 0.15,
+        "avg_days": 2.0,
+        "avg_mfe_r": 0.76,
+        "avg_mae_r": -0.83
       },
       "ema20": {
-        "trades": 102,
-        "win_rate_pct": 42.2,
-        "avg_r": -0.15,
-        "avg_win_r": 0.71,
-        "avg_loss_r": -0.78,
-        "avg_ret_pct": -0.56,
-        "avg_spy_ret_pct": -0.44,
+        "trades": 119,
+        "win_rate_pct": 47.9,
+        "avg_r": -0.07,
+        "avg_win_r": 0.69,
+        "avg_loss_r": -0.77,
+        "avg_ret_pct": -0.25,
+        "avg_spy_ret_pct": -0.14,
         "avg_days": 1.7,
         "avg_mfe_r": 0.7,
-        "avg_mae_r": -0.88
+        "avg_mae_r": -0.8
       },
       "down_streak": {
-        "trades": 14,
-        "win_rate_pct": 21.4,
-        "avg_r": -0.36,
-        "avg_win_r": 1.13,
+        "trades": 19,
+        "win_rate_pct": 42.1,
+        "avg_r": -0.12,
+        "avg_win_r": 0.78,
         "avg_loss_r": -0.77,
-        "avg_ret_pct": -0.51,
-        "avg_spy_ret_pct": -1.07,
+        "avg_ret_pct": 0.51,
+        "avg_spy_ret_pct": -0.18,
         "avg_days": 1.9,
-        "avg_mfe_r": 0.71,
-        "avg_mae_r": -1.28
+        "avg_mfe_r": 0.68,
+        "avg_mae_r": -1.0
       }
     },
     "Cohort by news (48h before trigger)": {
       "positive": {
-        "trades": 32,
-        "win_rate_pct": 25.0,
-        "avg_r": -0.51,
-        "avg_win_r": 0.35,
-        "avg_loss_r": -0.8,
-        "avg_ret_pct": -1.73,
-        "avg_spy_ret_pct": -0.91,
-        "avg_days": 1.5,
-        "avg_mfe_r": 0.45,
-        "avg_mae_r": -0.97
+        "trades": 38,
+        "win_rate_pct": 31.6,
+        "avg_r": -0.39,
+        "avg_win_r": 0.53,
+        "avg_loss_r": -0.81,
+        "avg_ret_pct": -1.28,
+        "avg_spy_ret_pct": -0.43,
+        "avg_days": 1.7,
+        "avg_mfe_r": 0.55,
+        "avg_mae_r": -0.9
       },
       "negative": {
         "trades": 2,
@@ -224,42 +224,42 @@
         "avg_mae_r": -0.53
       },
       "neutral": {
-        "trades": 8,
-        "win_rate_pct": 62.5,
-        "avg_r": 0.5,
-        "avg_win_r": 1.42,
+        "trades": 13,
+        "win_rate_pct": 76.9,
+        "avg_r": 0.66,
+        "avg_win_r": 1.16,
         "avg_loss_r": -1.03,
-        "avg_ret_pct": 2.98,
-        "avg_spy_ret_pct": -1.32,
-        "avg_days": 2.2,
-        "avg_mfe_r": 2.01,
-        "avg_mae_r": -1.4
+        "avg_ret_pct": 3.84,
+        "avg_spy_ret_pct": 0.16,
+        "avg_days": 2.5,
+        "avg_mfe_r": 1.64,
+        "avg_mae_r": -0.97
       },
       "none": {
-        "trades": 76,
-        "win_rate_pct": 52.6,
-        "avg_r": 0.02,
-        "avg_win_r": 0.72,
+        "trades": 90,
+        "win_rate_pct": 56.7,
+        "avg_r": 0.05,
+        "avg_win_r": 0.66,
         "avg_loss_r": -0.76,
-        "avg_ret_pct": -0.03,
-        "avg_spy_ret_pct": -0.17,
-        "avg_days": 1.8,
-        "avg_mfe_r": 0.69,
-        "avg_mae_r": -0.78
+        "avg_ret_pct": 0.03,
+        "avg_spy_ret_pct": 0.08,
+        "avg_days": 1.7,
+        "avg_mfe_r": 0.65,
+        "avg_mae_r": -0.71
       }
     },
     "By rule version": {
       "v1": {
-        "trades": 118,
-        "win_rate_pct": 44.9,
-        "avg_r": -0.1,
-        "avg_win_r": 0.73,
-        "avg_loss_r": -0.78,
-        "avg_ret_pct": -0.33,
-        "avg_spy_ret_pct": -0.43,
+        "trades": 143,
+        "win_rate_pct": 51.0,
+        "avg_r": -0.02,
+        "avg_win_r": 0.71,
+        "avg_loss_r": -0.79,
+        "avg_ret_pct": -0.01,
+        "avg_spy_ret_pct": -0.04,
         "avg_days": 1.8,
         "avg_mfe_r": 0.71,
-        "avg_mae_r": -0.87
+        "avg_mae_r": -0.78
       }
     }
   },
@@ -295,9 +295,9 @@
     {
       "cohort": "2026-11-08",
       "through": "today",
-      "cohort_ret_pct": 0.0,
-      "control_ret_pct": 0.0,
-      "spy_ret_pct": 0.0
+      "cohort_ret_pct": 1.27,
+      "control_ret_pct": 1.49,
+      "spy_ret_pct": 2.59
     }
   ]
 }
