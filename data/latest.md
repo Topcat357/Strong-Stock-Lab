@@ -2,21 +2,7 @@
 
 Light for 2026-11-17: **YELLOW** (SPY not above a rising 50/200 stack; VIX 22.9).
 
-New signals: 9 · Open shadow trades: 8 · Closed so far: 213 · Setups waiting: 64
-
-## New signals
-
-| Symbol | Group | Entry | Action |
-|---|---|---|---|
-| TFC | control | 50.11 | control |
-| PAYS | cohort | 9.50 | take_half |
-| UTZ | cohort | 14.29 | skip |
-| VREX | cohort | 18.23 | skip |
-| OLLI | control | 96.99 | control |
-| CERT | cohort | 11.33 | take_half |
-| RSKD | cohort | 9.64 | skip |
-| IBTA | cohort | 57.85 | skip |
-| KNTK | control | 55.17 | control |
+New signals: 0 · Open shadow trades: 8 · Closed so far: 213 · Setups waiting: 64
 
 ## Setups waiting for an hourly trigger
 
