@@ -418,3 +418,8 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-11-16-RSKD-c,NYSE:RSKD,2026-11-16T10:30:00-05:00,massive,0,none,0,0,0,
 2026-11-16-IBTA-c,NYSE:IBTA,2026-11-16T11:30:00-05:00,massive,0,none,0,0,0,
 2026-11-16-KNTK-c,NYSE:KNTK,2026-11-16T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-17-ARMK-c,NYSE:ARMK,2026-11-16T15:30:00-05:00,massive,2,positive,1,0,1,Aramark: 3 Key Takeaways for Long-Term Investors
+2026-11-17-IVZ-c,NYSE:IVZ,2026-11-17T14:30:00-05:00,massive,0,none,0,0,0,
+2026-11-17-PLSE-c,NASDAQ:PLSE,2026-11-17T14:30:00-05:00,massive,0,none,0,0,0,
+2026-11-17-DOCU-c,NASDAQ:DOCU,2026-11-17T12:30:00-05:00,massive,1,positive,1,0,0,DocuSign (DOCU) Stock Moves -1.16%: What You Should Know
+2026-11-17-OMER-c,NASDAQ:OMER,2026-11-17T11:30:00-05:00,massive,1,positive,1,0,0,Omeros (OMER) Surpasses Q3 Earnings and Revenue Estimates

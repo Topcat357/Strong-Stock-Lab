@@ -1,29 +1,24 @@
-# Strong-Stock Lab: 2026-11-16
+# Strong-Stock Lab: 2026-11-17
 
-Light for 2026-11-17: **YELLOW** (SPY not above a rising 50/200 stack; VIX 22.9).
+Light for 2026-11-18: **YELLOW** (SPY not above a rising 50/200 stack; VIX 25.5).
 
-New signals: 0 · Open shadow trades: 8 · Closed so far: 213 · Setups waiting: 64
+New signals: 5 · Open shadow trades: 9 · Closed so far: 217 · Setups waiting: 67
+
+## New signals
+
+| Symbol | Group | Entry | Action |
+|---|---|---|---|
+| ARMK | control | 55.78 | control |
+| IVZ | control | 28.97 | control |
+| PLSE | cohort | 44.42 | skip |
+| DOCU | cohort | 76.99 | skip |
+| OMER | control | 13.61 | control |
 
 ## Setups waiting for an hourly trigger
 
 | Symbol | Group | Since | Why |
 |---|---|---|---|
-| AMPL | cohort | 2026-11-12 | ema20 |
 | PSNL | cohort | 2026-11-12 | ema20 |
-| SDGR | cohort | 2026-11-12 | ema20+down_streak |
-| ARHS | cohort | 2026-11-12 | rsi2+down_streak |
-| SEPN | cohort | 2026-11-12 | rsi2+ema20 |
-| SIBN | cohort | 2026-11-12 | down_streak |
-| INTA | cohort | 2026-11-12 | ema20 |
-| VRNS | cohort | 2026-11-12 | ema20 |
-| LFST | cohort | 2026-11-12 | ema20+down_streak |
-| SG | cohort | 2026-11-12 | down_streak |
-| RHI | cohort | 2026-11-12 | ema20 |
-| HST | control | 2026-11-12 | ema20 |
-| DAL | control | 2026-11-12 | rsi2+ema20 |
-| BGC | control | 2026-11-12 | ema20 |
-| FRME | control | 2026-11-12 | ema20+down_streak |
-| RDWR | control | 2026-11-12 | ema20 |
 | CDNA | cohort | 2026-11-13 | rsi2+ema20 |
 | PD | cohort | 2026-11-13 | ema20 |
 | ATRC | cohort | 2026-11-13 | ema20 |
@@ -34,9 +29,7 @@ New signals: 0 · Open shadow trades: 8 · Closed so far: 213 · Setups waiting:
 | PRCH | cohort | 2026-11-13 | ema20 |
 | HTFL | cohort | 2026-11-13 | rsi2 |
 | LIND | cohort | 2026-11-13 | ema20 |
-| IVZ | control | 2026-11-13 | ema20 |
 | BHVN | control | 2026-11-13 | rsi2+ema20 |
-| ARMK | control | 2026-11-13 | ema20 |
 | PAA | control | 2026-11-13 | ema20 |
 | ACT | control | 2026-11-13 | rsi2+down_streak |
 | ROIV | control | 2026-11-13 | ema20 |
@@ -46,14 +39,12 @@ New signals: 0 · Open shadow trades: 8 · Closed so far: 213 · Setups waiting:
 | ZETA | cohort | 2026-11-16 | down_streak |
 | NTSK | cohort | 2026-11-16 | ema20 |
 | TENB | cohort | 2026-11-16 | ema20 |
-| PLSE | cohort | 2026-11-16 | rsi2+down_streak |
 | NEO | cohort | 2026-11-16 | rsi2+down_streak |
 | RNG | cohort | 2026-11-16 | ema20 |
 | FIGS | cohort | 2026-11-16 | ema20+down_streak |
 | GCT | cohort | 2026-11-16 | ema20 |
 | CHPT | cohort | 2026-11-16 | rsi2+ema20+down_streak |
 | AMRX | cohort | 2026-11-16 | ema20+down_streak |
-| DOCU | cohort | 2026-11-16 | ema20 |
 | NSP | cohort | 2026-11-16 | ema20 |
 | ECO | cohort | 2026-11-16 | ema20 |
 | AVPT | cohort | 2026-11-16 | ema20 |
@@ -62,7 +53,6 @@ New signals: 0 · Open shadow trades: 8 · Closed so far: 213 · Setups waiting:
 | SLG | control | 2026-11-16 | ema20 |
 | CCI | control | 2026-11-16 | ema20 |
 | OVV | control | 2026-11-16 | ema20 |
-| OMER | control | 2026-11-16 | rsi2+down_streak |
 | FDMT | control | 2026-11-16 | rsi2+ema20 |
 | RAL | control | 2026-11-16 | rsi2+ema20+down_streak |
 | VSTS | control | 2026-11-16 | rsi2+down_streak |
@@ -72,3 +62,26 @@ New signals: 0 · Open shadow trades: 8 · Closed so far: 213 · Setups waiting:
 | TFSL | control | 2026-11-16 | rsi2+ema20 |
 | URBN | control | 2026-11-16 | ema20 |
 | PRSU | control | 2026-11-16 | ema20 |
+| APPN | cohort | 2026-11-17 | ema20 |
+| AMPL | cohort | 2026-11-17 | ema20 |
+| NIQ | cohort | 2026-11-17 | rsi2 |
+| MGNI | cohort | 2026-11-17 | rsi2+down_streak |
+| SDGR | cohort | 2026-11-17 | rsi2+down_streak |
+| ARHS | cohort | 2026-11-17 | rsi2+ema20 |
+| INTA | cohort | 2026-11-17 | rsi2+ema20 |
+| GTLB | cohort | 2026-11-17 | rsi2 |
+| IBTA | cohort | 2026-11-17 | rsi2+ema20 |
+| VREX | cohort | 2026-11-17 | rsi2 |
+| MAX | cohort | 2026-11-17 | ema20 |
+| BOX | cohort | 2026-11-17 | ema20 |
+| LFST | cohort | 2026-11-17 | ema20 |
+| VRNS | cohort | 2026-11-17 | ema20 |
+| SG | cohort | 2026-11-17 | ema20 |
+| PBF | cohort | 2026-11-17 | rsi2 |
+| RHI | cohort | 2026-11-17 | ema20 |
+| SRZN | control | 2026-11-17 | rsi2+ema20 |
+| REYN | control | 2026-11-17 | ema20 |
+| CVI | control | 2026-11-17 | rsi2+down_streak |
+| FAST | control | 2026-11-17 | rsi2+ema20+down_streak |
+| SEPN | control | 2026-11-17 | rsi2 |
+| WH | control | 2026-11-17 | ema20 |
