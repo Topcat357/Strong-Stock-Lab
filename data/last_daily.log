@@ -1,5 +1,8 @@
-[20:57:05] Processing: ['2026-11-17', '2026-11-18']
-[20:57:17] Bars: 138 daily, 136 hourly
-[20:57:18] 2026-11-17: light yellow, 23 new setups, 9 open trades
-[20:57:18] No bars yet for 2026-11-18; stopping here.
-[20:58:24] News tags: 5 of 5 signals from Massive
+[20:50:33] Processing: ['2026-11-18', '2026-11-19']
+
+1 Failed download:
+['SUNC']: OperationalError('database is locked')
+[20:50:43] Bars: 131 daily, 129 hourly
+[20:50:44] 2026-11-18: light red, 19 new setups, 10 open trades
+[20:50:44] No bars yet for 2026-11-19; stopping here.
+[20:53:35] News tags: 13 of 13 signals from Massive
