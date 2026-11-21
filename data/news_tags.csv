@@ -436,3 +436,5 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-11-18-VRNS-c,NASDAQ:VRNS,2026-11-18T09:30:00-05:00,massive,0,none,0,0,0,
 2026-11-18-SG-c,NYSE:SG,2026-11-18T09:30:00-05:00,massive,1,positive,1,0,0,Red Robin Gears Up for Q3 Earnings: What's in the Cards for the Stock?
 2026-11-18-SRZN-c,NASDAQ:SRZN,2026-11-18T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-19-BMY-c,NYSE:BMY,2026-11-19T11:30:00-05:00,massive,6,positive,3,1,2,Bristol-Myers Squibb: 3 Key Takeaways for Long-Term Investors
+2026-11-19-NTSK-c,NASDAQ:NTSK,2026-11-19T09:30:00-05:00,massive,0,none,0,0,0,
