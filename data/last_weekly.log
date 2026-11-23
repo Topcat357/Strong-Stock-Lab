@@ -1,2 +1,14 @@
-[20:29:33] Wrote data/report_latest.md
-cohort_2026-11-15.csv already exists; past cohorts are never rebuilt (use --force today only).
+$TCBI: possibly delisted; no price data found  (period=1y)
+
+2 Failed downloads:
+['APPS']: OperationalError('database is locked')
+['TCBI']: possibly delisted; no price data found  (period=1y)
+$TCBI: possibly delisted; no price data found  (period=1y)
+
+1 Failed download:
+['TCBI']: possibly delisted; no price data found  (period=1y)
+Yahoo missed 1 1d symbols: ['AMEX:TCBI']
+[19:16:59] Wrote data/report_latest.md
+[19:17:00] Universe: 2052 stocks
+[19:17:00] Liquid: 1442; first pass: 163
+[19:17:05] Saved cohort_2026-11-22.csv: 60 cohort + 60 control
