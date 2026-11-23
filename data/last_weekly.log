@@ -7,5 +7,5 @@ $TCBI: possibly delisted; no price data found  (period=1y)
 1 Failed download:
 ['TCBI']: possibly delisted; no price data found  (period=1y)
 Yahoo missed 1 1d symbols: ['AMEX:TCBI']
-[19:21:24] Wrote data/report_latest.md
+[21:05:15] Wrote data/report_latest.md
 cohort_2026-11-22.csv already exists; past cohorts are never rebuilt (use --force today only).
