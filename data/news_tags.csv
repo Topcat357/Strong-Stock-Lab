@@ -438,3 +438,43 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-11-18-SRZN-c,NASDAQ:SRZN,2026-11-18T09:30:00-05:00,massive,0,none,0,0,0,
 2026-11-19-BMY-c,NYSE:BMY,2026-11-19T11:30:00-05:00,massive,6,positive,3,1,2,Bristol-Myers Squibb: 3 Key Takeaways for Long-Term Investors
 2026-11-19-NTSK-c,NASDAQ:NTSK,2026-11-19T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-11-PAYS-c,NASDAQ:PAYS,2026-11-11T12:30:00-05:00,tradingview,15,positive,7,1,7,Paysign beats Q3 and raises 2026 profit guidance
+2026-11-16-PAYS-c,NASDAQ:PAYS,2026-11-16T14:30:00-05:00,tradingview,1,neutral,0,0,1,Weekly recap of record Q3 results and test submissions
+2026-11-11-RNG-c,NYSE:RNG,2026-11-11T13:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-11-INTA-c,NASDAQ:INTA,2026-11-11T13:30:00-05:00,tradingview,1,neutral,0,0,1,Intapp named in roundup of firms tied to OpenAI
+2026-11-11-MAX-c,NYSE:MAX,2026-11-11T14:30:00-05:00,tradingview,2,positive,2,0,0,MediaAlpha report says home insurance ad spend rose 84%
+2026-11-11-QNST-c,NASDAQ:QNST,2026-11-11T14:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-12-IVZ-c,NYSE:IVZ,2026-11-12T11:30:00-05:00,tradingview,9,neutral,1,3,5,Invesco October AUM fell 3.3%; China welcomes cooperation
+2026-11-17-IVZ-c,NYSE:IVZ,2026-11-17T14:30:00-05:00,tradingview,6,neutral,1,2,3,Mizuho starts Invesco at Outperform; Trian cuts its stake
+2026-11-12-PAA-c,NASDAQ:PAA,2026-11-12T12:30:00-05:00,tradingview,2,positive,1,0,1,Wells Fargo and Barclays raise Plains price targets
+2026-11-13-SO-c,NYSE:SO,2026-11-13T09:30:00-05:00,tradingview,13,negative,0,9,4,Southern Company launches and prices 1.75B equity unit offering
+2026-11-13-PD-c,NYSE:PD,2026-11-13T12:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-18-PD-c,NYSE:PD,2026-11-18T11:30:00-05:00,tradingview,1,positive,1,0,0,Truist keeps PagerDuty at Buy and lifts target to 17
+2026-11-13-VG-c,NYSE:VG,2026-11-13T13:30:00-05:00,tradingview,2,neutral,0,0,2,Venture Global seeks DOE approval to re-export LNG from CP2
+2026-11-13-NIQ-c,NYSE:NIQ,2026-11-13T13:30:00-05:00,tradingview,18,positive,10,1,7,NIQ raises 2026 guidance; four analysts lift price targets
+2026-11-13-NEO-c,NASDAQ:NEO,2026-11-13T13:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-13-STNG-c,NYSE:STNG,2026-11-13T13:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-13-MRVI-c,NASDAQ:MRVI,2026-11-13T14:30:00-05:00,tradingview,3,positive,2,0,1,KeyBanc upgrades Maravai to Overweight with 11 target
+2026-11-16-TFC-c,NYSE:TFC,2026-11-13T15:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-16-OLLI-c,NASDAQ:OLLI,2026-11-16T09:30:00-05:00,tradingview,1,neutral,0,0,1,Ollie's benchmarked against discount retail peers
+2026-11-16-KNTK-c,NYSE:KNTK,2026-11-16T09:30:00-05:00,tradingview,1,neutral,0,0,1,Weekly recap of record gas volumes and target revisions
+2026-11-16-UTZ-c,NYSE:UTZ,2026-11-16T09:30:00-05:00,tradingview,0,unknown,0,0,0,
+2026-11-16-VREX-c,NASDAQ:VREX,2026-11-16T09:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-16-RSKD-c,NYSE:RSKD,2026-11-16T10:30:00-05:00,tradingview,1,neutral,0,0,1,"Weekly recap of Q3 growth, raised guidance and buybacks"
+2026-11-16-IBTA-c,NYSE:IBTA,2026-11-16T11:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-16-CERT-c,NASDAQ:CERT,2026-11-16T13:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-17-ARMK-c,NYSE:ARMK,2026-11-16T15:30:00-05:00,tradingview,15,positive,10,1,4,"Aramark guides FY27 EPS growth 20-25%, adds 1B buyback"
+2026-11-17-OMER-c,NASDAQ:OMER,2026-11-17T11:30:00-05:00,tradingview,8,negative,0,2,6,Omeros shares fall on wider Q3 loss
+2026-11-17-DOCU-c,NASDAQ:DOCU,2026-11-17T12:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-17-PLSE-c,NASDAQ:PLSE,2026-11-17T14:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-18-PSNL-c,NASDAQ:PSNL,2026-11-17T15:30:00-05:00,tradingview,1,neutral,0,0,1,Personalis listed in Ark Invest weekly trade recap
+2026-11-18-AMRX-c,NASDAQ:AMRX,2026-11-17T15:30:00-05:00,tradingview,1,neutral,0,0,1,"Weekly recap: revenue up 10 pct, Kashiv deal closed"
+2026-11-18-LIND-c,NASDAQ:LIND,2026-11-18T09:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-18-VRNS-c,NASDAQ:VRNS,2026-11-18T09:30:00-05:00,tradingview,1,neutral,0,0,1,Proofpoint launches 2B debt deal to fund Varonis takeover
+2026-11-18-URBN-c,NASDAQ:URBN,2026-11-18T09:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-18-SRZN-c,NASDAQ:SRZN,2026-11-18T09:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-18-SG-c,NYSE:SG,2026-11-18T09:30:00-05:00,tradingview,2,positive,2,0,0,Sweetgreen launches AI agent ordering via ChatGPT and Claude
+2026-11-18-NTSK-c,NASDAQ:NTSK,2026-11-18T10:30:00-05:00,tradingview,2,positive,2,0,0,TD Cowen and Rosenblatt raise Netskope price targets
+2026-11-18-PRSU-c,NYSE:PRSU,2026-11-18T10:30:00-05:00,tradingview,0,none,0,0,0,
+2026-11-18-TENB-c,NASDAQ:TENB,2026-11-18T10:30:00-05:00,tradingview,1,neutral,0,0,1,Tenable executives to present at investor events
+2026-11-18-AMPL-c,NASDAQ:AMPL,2026-11-18T11:30:00-05:00,tradingview,0,none,0,0,0,
