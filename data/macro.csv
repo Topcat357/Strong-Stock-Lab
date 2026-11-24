@@ -30,3 +30,5 @@ date,spy_close,spy_sma50,spy_sma200,vix,breadth_pct,next_session,event_next,ligh
 2026-11-17,732.44,763.153,732.343,25.46,,2026-11-18,,yellow,SPY not above a rising 50/200 stack; VIX 25.5,v1
 2026-11-18,730.2,762.509,732.546,24.56,,2026-11-19,,red,SPY below 200-day,v1
 2026-11-19,715.87,761.669,732.694,28.44,,2026-11-20,,red,SPY below 200-day; VIX 28.4,v1
+2026-11-20,689.81,760.18,732.755,35.89,,2026-11-23,,red,SPY below 200-day; VIX 35.9,v1
+2026-11-23,722.29,759.408,732.914,26.62,52.191235059760956,2026-11-24,,red,SPY below 200-day,v1
