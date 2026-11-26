@@ -501,3 +501,18 @@ signal_id,symbol,trigger_time,source,headlines_48h,news_tone,positive,negative,n
 2026-11-24-BBY-c,NYSE:BBY,2026-11-24T11:30:00-05:00,massive,6,positive,5,0,1,Best Buy Q3 Earnings Beat Estimates on Broad-Based Sales Growth
 2026-11-24-MCB-c,NYSE:MCB,2026-11-24T11:30:00-05:00,massive,0,none,0,0,0,
 2026-11-24-TRNO-c,NYSE:TRNO,2026-11-24T11:30:00-05:00,massive,0,none,0,0,0,
+2026-11-25-PSNL-c,NASDAQ:PSNL,2026-11-25T11:30:00-05:00,massive,0,none,0,0,0,
+2026-11-25-PBF-c,NYSE:PBF,2026-11-25T13:30:00-05:00,massive,2,positive,1,0,1,Here's Why PBF Energy (PBF) is a Strong Growth Stock
+2026-11-25-REYN-c,NASDAQ:REYN,2026-11-25T09:30:00-05:00,massive,0,none,0,0,0,
+2026-11-25-ALGT-c,NASDAQ:ALGT,2026-11-25T11:30:00-05:00,massive,0,none,0,0,0,
+2026-11-25-TENB-c,NASDAQ:TENB,2026-11-25T12:30:00-05:00,massive,0,none,0,0,0,
+2026-11-25-HNI-c,NYSE:HNI,2026-11-25T11:30:00-05:00,massive,0,none,0,0,0,
+2026-11-25-RRC-c,NYSE:RRC,2026-11-25T11:30:00-05:00,massive,1,neutral,0,0,1,Should You Invest in the State Street SPDR S&P Oil & Gas Exploration & Productio
+2026-11-25-IFF-c,NYSE:IFF,2026-11-25T11:30:00-05:00,massive,0,none,0,0,0,
+2026-11-25-LBRX-c,NASDAQ:LBRX,2026-11-25T12:30:00-05:00,massive,0,none,0,0,0,
+2026-11-25-AAMI-c,NYSE:AAMI,2026-11-25T11:30:00-05:00,massive,1,positive,1,0,0,Are Finance Stocks Lagging  Acadian Asset Management Inc. (AAMI) This Year?
+2026-11-25-VREX-c,NASDAQ:VREX,2026-11-25T11:30:00-05:00,massive,0,none,0,0,0,
+2026-11-25-DLX-c,NYSE:DLX,2026-11-25T11:30:00-05:00,massive,1,positive,1,0,0,WEX Stock Rises 18.1% in Six Months: Here's What You Should Know
+2026-11-25-BBT-c,NYSE:BBT,2026-11-25T13:30:00-05:00,massive,0,none,0,0,0,
+2026-11-25-TRNO-c,NYSE:TRNO,2026-11-25T12:30:00-05:00,massive,0,none,0,0,0,
+2026-11-25-WSBC-c,NASDAQ:WSBC,2026-11-25T13:30:00-05:00,massive,0,none,0,0,0,
