@@ -1,1 +1,7 @@
-[22:03:46] Nothing new to process.
+[21:52:48] Processing: ['2026-11-27']
+
+1 Failed download:
+['AMTM']: OperationalError('database is locked')
+[21:52:58] Bars: 126 daily, 124 hourly
+[21:52:58] 2026-11-27: light red, 23 new setups, 6 open trades
+[21:53:25] News tags: 2 of 2 signals from Massive
